@@ -144,6 +144,10 @@ void VescDriver::timerCallback(const ros::TimerEvent& event)
   {
     // poll for vesc state (telemetry)
     vesc_.requestState();
+    if (encoder_enabled_)
+    {
+        vesc_.requestRotorPosition();
+    }
   }
   else
   {
