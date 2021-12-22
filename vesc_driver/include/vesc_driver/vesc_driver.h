@@ -106,6 +106,7 @@ private:
   int fw_version_major_;       ///< firmware major version reported by vesc
   int fw_version_minor_;       ///< firmware minor version reported by vesc
   int num_motor_pole_pairs_;   // the number of motor pole pairs
+  bool encoder_enabled_;        // flag to be set true for DC motor with encoder
 
   // ROS callbacks
   void timerCallback(const ros::TimerEvent& event);

@@ -75,6 +75,13 @@ VescDriver::VescDriver(ros::NodeHandle nh, ros::NodeHandle private_nh)
   private_nh.param("num_motor_pole_pairs", num_motor_pole_pairs_, 1);
   ROS_INFO("The number of motor pole pairs is set to %d", num_motor_pole_pairs_);
 
+  // get the number of motor pole pairs
+  private_nh.param("encoder", encoder_enabled_, false);
+  if (encoder_enabled_)
+  {
+      ROS_INFO("Set DC Motor with Encoder Mode");
+  }
+
   // create vesc state (telemetry) publisher
   state_pub_ = nh.advertise<vesc_msgs::VescStateStamped>("sensors/core", 10);
 
