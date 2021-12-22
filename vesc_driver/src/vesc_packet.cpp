@@ -126,8 +126,8 @@ VescPacketFWVersion::VescPacketFWVersion(std::shared_ptr<VescFrame> raw) : VescP
 }
 
 /**
- * @brief Gets major farmware version
- * @return Major farmware version
+ * @brief Gets major firmware version
+ * @return Major firmware version
  **/
 int16_t VescPacketFWVersion::fwMajor() const
 {
@@ -135,8 +135,8 @@ int16_t VescPacketFWVersion::fwMajor() const
 }
 
 /**
- * @brief Gets minor farmware version
- * @return Minor farmware version
+ * @brief Gets minor firmware version
+ * @return Minor firmware version
  **/
 int16_t VescPacketFWVersion::fwMinor() const
 {

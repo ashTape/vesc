@@ -147,7 +147,7 @@ typedef std::shared_ptr<VescPacket const> VescPacketConstPtr;
 /*------------------------------------------------------------------*/
 
 /**
- * @brief Farmware version
+ * @brief Firmware version
  **/
 class VescPacketFWVersion : public VescPacket
 {
@@ -161,7 +161,7 @@ public:
 /*------------------------------------------------------------------*/
 
 /**
- * @brief Requests farmware version
+ * @brief Requests firmware version
  **/
 class VescPacketRequestFWVersion : public VescPacket
 {
