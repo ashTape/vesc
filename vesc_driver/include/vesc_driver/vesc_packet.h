@@ -212,6 +212,17 @@ public:
 /*------------------------------------------------------------------*/
 
 /**
+ * @brief Requests rotor position
+ **/
+class VescPacketRequestRotorPosition: public VescPacket
+{
+public:
+  VescPacketRequestRotorPosition();
+};
+
+/*------------------------------------------------------------------*/
+
+/**
  * @brief Packet for setting duty
  **/
 class VescPacketSetDuty : public VescPacket

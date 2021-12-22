@@ -121,6 +121,7 @@ public:
 
   void requestFWVersion();
   void requestState();
+  void requestRotorPosition();
   void setDutyCycle(double duty_cycle);
   void setCurrent(double current);
   void setBrake(double brake);

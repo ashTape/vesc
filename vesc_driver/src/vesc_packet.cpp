@@ -345,6 +345,21 @@ VescPacketRequestValues::VescPacketRequestValues() : VescPacket("RequestFWVersio
 /**
  * @brief Constructor
  **/
+VescPacketRequestRotorPosition::VescPacketRequestRotorPosition() : VescPacket("RequestRotorPosition", 1, COMM_ROTOR_POSITION)
+{
+  VescFrame::CRC crc_calc;
+  crc_calc.process_bytes(&(*payload_end_.first), boost::distance(payload_end_));
+  uint16_t crc = crc_calc.checksum();
+  *(frame_.end() - 3) = static_cast<uint8_t>(crc >> 8);
+  *(frame_.end() - 2) = static_cast<uint8_t>(crc & 0xFF);
+}
+
+
+/*------------------------------------------------------------------*/
+
+/**
+ * @brief Constructor
+ **/
 VescPacketSetDuty::VescPacketSetDuty(double duty) : VescPacket("SetDuty", 5, COMM_SET_DUTY)
 {
   // checks the range of duty

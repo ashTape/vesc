@@ -239,6 +239,11 @@ void VescInterface::requestState()
   send(VescPacketRequestValues());
 }
 
+void VescInterface::requestRotorPosition()
+{
+  send(VescPacketRequestRotorPosition());
+}
+
 void VescInterface::setDutyCycle(double duty_cycle)
 {
   send(VescPacketSetDuty(duty_cycle));
