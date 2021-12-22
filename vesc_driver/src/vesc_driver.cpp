@@ -79,7 +79,9 @@ VescDriver::VescDriver(ros::NodeHandle nh, ros::NodeHandle private_nh)
   private_nh.param("encoder", encoder_enabled_, false);
   if (encoder_enabled_)
   {
-      ROS_INFO("Set DC Motor with Encoder Mode");
+    private_nh.param("reduction_ratio", reduction_ratio_, 1.0);
+    ROS_INFO("Set DC Motor with Encoder Mode");
+    ROS_INFO("The number of motor pole pairs is set to %.3lf", reduction_ratio_);
   }
 
   // create vesc state (telemetry) publisher
