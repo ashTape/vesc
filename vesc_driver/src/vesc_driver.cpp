@@ -174,9 +174,16 @@ void VescDriver::vescPacketCallback(const std::shared_ptr<VescPacket const>& pac
     state_msg->state.charge_regen = values->getInputCharge();
     state_msg->state.energy_drawn = values->getConsumedPower();
     state_msg->state.energy_regen = values->getInputPower();
-    state_msg->state.displacement = values->getPosition();
-    state_msg->state.distance_traveled = values->getDisplacement();
     state_msg->state.fault_code = values->getFaultCode();
+    if (encoder_enabled_)
+    {
+        state_msg->state.displacement = values->getRotorPosition();
+        state_msg->state.distance_traveled = values->getRotorDisplacement();
+    } else
+    {
+        state_msg->state.displacement = values->getPosition();
+        state_msg->state.distance_traveled = values->getDisplacement();
+    }
 
     state_pub_.publish(state_msg);
   }

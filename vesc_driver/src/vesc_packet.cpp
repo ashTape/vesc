@@ -292,6 +292,28 @@ double VescPacketValues::getDisplacement() const
 }
 
 /**
+ * @brief Gets the current position from encoder
+ * @return The current encoder position
+ **/
+double VescPacketValues::getRotorPosition() const
+{
+  // must be made
+  double tmp;
+  return tmp;
+}
+
+/**
+ * @brief Gets absolute displacement from encoder
+ * @return Absolute encoder displacement
+ **/
+double VescPacketValues::getRotorDisplacement() const
+{
+  // must be made
+  double tmp;
+  return tmp;
+}
+
+/**
  * @brief Gets fault code
  * @return Fault code
  **/

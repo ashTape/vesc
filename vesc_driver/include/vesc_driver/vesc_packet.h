@@ -191,7 +191,9 @@ public:
   double getConsumedPower() const;
   double getInputPower() const;
   double getPosition() const;
+  double getRotorPosition() const;
   double getDisplacement() const;
+  double getRotorDisplacement() const;
   int getFaultCode() const;
 
 private:
