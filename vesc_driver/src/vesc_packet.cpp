@@ -303,17 +303,6 @@ double VescPacketValues::getRotorPosition() const
 }
 
 /**
- * @brief Gets absolute displacement from encoder
- * @return Absolute encoder displacement
- **/
-double VescPacketValues::getRotorDisplacement() const
-{
-  // must be made
-  double tmp;
-  return tmp;
-}
-
-/**
  * @brief Gets fault code
  * @return Fault code
  **/
