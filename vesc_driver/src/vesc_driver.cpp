@@ -71,18 +71,21 @@ VescDriver::VescDriver(ros::NodeHandle nh, ros::NodeHandle private_nh)
     return;
   }
 
-  // get the number of motor pole pairs
-  private_nh.param("num_motor_pole_pairs", num_motor_pole_pairs_, 1);
-  ROS_INFO("The number of motor pole pairs is set to %d", num_motor_pole_pairs_);
-
-  // get the number of motor pole pairs
+  // get the flag to enable encoder mode
   private_nh.param("encoder", encoder_enabled_, false);
   if (encoder_enabled_)
   {
+    // get the reduction ratio
     private_nh.param("reduction_ratio", reduction_ratio_, 1.0);
     ROS_INFO("Set DC Motor with Encoder Mode");
     ROS_INFO("The number of motor pole pairs is set to %.3lf", reduction_ratio_);
+  } else
+  {
+    // get the number of motor pole pairs
+    private_nh.param("num_motor_pole_pairs", num_motor_pole_pairs_, 1);
+    ROS_INFO("The number of motor pole pairs is set to %d", num_motor_pole_pairs_);
   }
+
 
   // create vesc state (telemetry) publisher
   state_pub_ = nh.advertise<vesc_msgs::VescStateStamped>("sensors/core", 10);
