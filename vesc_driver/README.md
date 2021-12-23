@@ -19,7 +19,7 @@ vesc_driver
 #### Description
 - `vesc_packet` defines communication packets and the lowest interfaces via USB serial. 
 - `vesc_packet_factory` creates packets defines in `vesc_packet`.
-- `vesc_interface` provides us with basic APIs to drive VESC moto drivers: API functions send commands including duty, reference current, brake, and reference velocity.
+- `vesc_interface` provides us with basic APIs to drive VESC motor drivers: API functions send commands including duty, reference current, brake, and reference velocity.
 - `vesc_driver` publishes all states using `vesc_msgs` and sends commands with callback functions.
 
 
