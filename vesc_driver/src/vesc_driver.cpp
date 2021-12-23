@@ -86,13 +86,15 @@ VescDriver::VescDriver(ros::NodeHandle nh, ros::NodeHandle private_nh)
     ROS_INFO("The number of motor pole pairs is set to %d", num_motor_pole_pairs_);
   }
 
-
   // create vesc state (telemetry) publisher
   state_pub_ = nh.advertise<vesc_msgs::VescStateStamped>("sensors/core", 10);
 
   // since vesc state does not include the servo position, publish the commanded
   // servo position as a "sensor"
   servo_sensor_pub_ = nh.advertise<std_msgs::Float64>("sensors/servo_position_command", 10);
+
+  // create encoder position publisher
+  encoder_pub_ = nh.advertise<std_msgs::Float64>("sensors/encoder", 10);
 
   // subscribe to motor and servo command topics
   duty_cycle_sub_ = nh.subscribe("commands/motor/duty_cycle", 10, &VescDriver::dutyCycleCallback, this);
@@ -180,17 +182,18 @@ void VescDriver::vescPacketCallback(const std::shared_ptr<VescPacket const>& pac
     state_msg->state.energy_drawn = values->getConsumedPower();
     state_msg->state.energy_regen = values->getInputPower();
     state_msg->state.fault_code = values->getFaultCode();
-    if (encoder_enabled_)
-    {
-        state_msg->state.displacement = values->getRotorPosition();
-        state_msg->state.distance_traveled = values->getRotorDisplacement();
-    } else
-    {
-        state_msg->state.displacement = values->getPosition();
-        state_msg->state.distance_traveled = values->getDisplacement();
-    }
+    state_msg->state.displacement = values->getPosition();
+    state_msg->state.distance_traveled = values->getDisplacement();
 
     state_pub_.publish(state_msg);
+
+    if (encoder_enabled_)
+    {
+        // publish encoder position
+        std_msgs::Float64::Ptr encoder_msg(new std_msgs::Float64);
+        encoder_msg->data = values->getRotorPosition();
+        encoder_pub_.publish(encoder_msg);
+    }
   }
   else if (packet->getName() == "FWVersion")
   {
