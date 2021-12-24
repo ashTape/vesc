@@ -91,7 +91,7 @@ VescDriver::VescDriver(ros::NodeHandle nh, ros::NodeHandle private_nh)
   servo_sensor_pub_ = nh.advertise<std_msgs::Float64>("sensors/servo_position_command", 10);
 
   // create encoder position publisher
-  encoder_pub_ = nh.advertise<std_msgs::Float64>("sensors/encoder", 10);
+  encoder_pub_ = nh.advertise<std_msgs::Float32>("sensors/encoder", 10);
 
   // subscribe to motor and servo command topics
   duty_cycle_sub_ = nh.subscribe("commands/motor/duty_cycle", 10, &VescDriver::dutyCycleCallback, this);
