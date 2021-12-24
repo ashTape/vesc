@@ -292,17 +292,6 @@ double VescPacketValues::getDisplacement() const
 }
 
 /**
- * @brief Gets the current position from encoder
- * @return The current encoder position
- **/
-double VescPacketValues::getRotorPosition() const
-{
-  // must be made
-  double tmp;
-  return tmp;
-}
-
-/**
  * @brief Gets fault code
  * @return Fault code
  **/
@@ -355,6 +344,25 @@ VescPacketRequestValues::VescPacketRequestValues() : VescPacket("RequestFWVersio
 
 /**
  * @brief Constructor
+ * @param raw Pointer of VescFrame
+ **/
+VescPacketRotorPosition::VescPacketRotorPosition(std::shared_ptr<VescFrame> raw) : VescPacket("RotorPosition", raw)
+{
+}
+
+/**
+ * @brief Gets major farmware version
+ * @return Major farmware version
+ **/
+float VescPacketRotorPosition::getRotorPosition() const
+{
+  return *(payload_end_.first + 1);
+}
+
+/*------------------------------------------------------------------*/
+
+/**
+ * @brief Constructor
  **/
 VescPacketRequestRotorPosition::VescPacketRequestRotorPosition() : VescPacket("RequestRotorPosition", 1, COMM_ROTOR_POSITION)
 {
@@ -364,7 +372,6 @@ VescPacketRequestRotorPosition::VescPacketRequestRotorPosition() : VescPacket("R
   *(frame_.end() - 3) = static_cast<uint8_t>(crc >> 8);
   *(frame_.end() - 2) = static_cast<uint8_t>(crc & 0xFF);
 }
-
 
 /*------------------------------------------------------------------*/
 

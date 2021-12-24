@@ -75,10 +75,7 @@ VescDriver::VescDriver(ros::NodeHandle nh, ros::NodeHandle private_nh)
   private_nh.param("encoder", encoder_enabled_, false);
   if (encoder_enabled_)
   {
-    // get the reduction ratio
-    private_nh.param("reduction_ratio", reduction_ratio_, 1.0);
     ROS_INFO("Set DC Motor with Encoder Mode");
-    ROS_INFO("The number of motor pole pairs is set to %.3lf", reduction_ratio_);
   } else
   {
     // get the number of motor pole pairs
@@ -186,14 +183,15 @@ void VescDriver::vescPacketCallback(const std::shared_ptr<VescPacket const>& pac
     state_msg->state.distance_traveled = values->getDisplacement();
 
     state_pub_.publish(state_msg);
+  }
+  else if (packet->getName() == "RotorPosition")
+  {
+    // publish encoder position
+    std::shared_ptr<VescPacketRotorPosition const> rotor_position = std::dynamic_pointer_cast<VescPacketRotorPosition const>(packet);
+    std_msgs::Float32::Ptr encoder_msg(new std_msgs::Float32);
+    encoder_msg->data = rotor_position->getRotorPosition();
 
-    if (encoder_enabled_)
-    {
-        // publish encoder position
-        std_msgs::Float64::Ptr encoder_msg(new std_msgs::Float64);
-        encoder_msg->data = values->getRotorPosition();
-        encoder_pub_.publish(encoder_msg);
-    }
+    encoder_pub_.publish(encoder_msg);
   }
   else if (packet->getName() == "FWVersion")
   {

@@ -46,6 +46,7 @@
 #include <boost/optional.hpp>
 
 #include <ros/ros.h>
+#include <std_msgs/Float32.h>
 #include <std_msgs/Float64.h>
 #include <vesc_msgs/VescStateStamped.h>
 
@@ -108,7 +109,6 @@ private:
   int fw_version_minor_;       ///< firmware minor version reported by vesc
   int num_motor_pole_pairs_;   // the number of motor pole pairs
   bool encoder_enabled_;        // flag to be set true for DC motor with encoder
-  double reduction_ratio_;      // the number of reduction ratio
 
   // ROS callbacks
   void timerCallback(const ros::TimerEvent& event);

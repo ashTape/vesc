@@ -192,7 +192,6 @@ public:
   double getInputPower() const;
   double getPosition() const;
   double getDisplacement() const;
-  double getRotorPosition() const;
   int getFaultCode() const;
 
 private:
@@ -208,6 +207,18 @@ class VescPacketRequestValues : public VescPacket
 {
 public:
   VescPacketRequestValues();
+};
+
+/*------------------------------------------------------------------*/
+/**
+ * @brief Packet for rotor position
+ **/
+class VescPacketRotorPosition : public VescPacket
+{
+public:
+  explicit VescPacketRotorPosition(std::shared_ptr<VescFrame> raw);
+
+  float getRotorPosition() const;
 };
 
 /*------------------------------------------------------------------*/
