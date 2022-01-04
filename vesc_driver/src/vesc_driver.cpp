@@ -143,6 +143,10 @@ void VescDriver::timerCallback(const ros::TimerEvent& event)
       ROS_INFO("Connected to VESC with firmware version %d.%d", fw_version_major_, fw_version_minor_);
       driver_mode_ = MODE_OPERATING;
     }
+    if (encoder_enabled_)
+    {
+        vesc_.setDetect(DISP_POS_MODE_ENCODER);
+    }
   }
   else if (driver_mode_ == MODE_OPERATING)
   {

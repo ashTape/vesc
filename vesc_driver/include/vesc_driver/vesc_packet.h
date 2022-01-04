@@ -298,6 +298,17 @@ public:
   explicit VescPacketSetServoPos(double servo_pos);
 };
 
+/*------------------------------------------------------------------*/
+
+/**
+ * @brief Packet for setting display position mode
+ **/
+class VescPacketSetDetect : public VescPacket
+{
+public:
+  explicit VescPacketSetDetect(uint8_t mode);
+};
+
 }  // namespace vesc_driver
 
 #endif  // VESC_DRIVER_VESC_PACKET_H_

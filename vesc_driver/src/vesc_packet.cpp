@@ -513,18 +513,19 @@ VescPacketSetServoPos::VescPacketSetServoPos(double servo_pos) : VescPacket("Set
 }
 
 /*------------------------------------------------------------------*/
-/*
-VescPacketSetDetect::VescPacketSetDetect(uint8_t mode) :
-  VescPacket("SetDetect", 3, COMM_SET_DETECT)
+
+/**
+ * @brief Constructor
+ **/
+VescPacketSetDetect::VescPacketSetDetect(uint8_t mode) : VescPacket("SetDetect", 3, COMM_SET_DETECT)
 {
   *(payload_end_.first + 1) = mode;
 
   VescFrame::CRC crc_calc;
   crc_calc.process_bytes(&(*payload_end_.first), boost::distance(payload_end_));
   uint16_t crc = crc_calc.checksum();
-  *(frame_->end() - 3) = static_cast<uint8_t>(crc >> 8);
-  *(frame_->end() - 2) = static_cast<uint8_t>(crc & 0xFF);
+  *(frame_.end() - 3) = static_cast<uint8_t>(crc >> 8);
+  *(frame_.end() - 2) = static_cast<uint8_t>(crc & 0xFF);
 }
-*/
 
 }  // namespace vesc_driver
