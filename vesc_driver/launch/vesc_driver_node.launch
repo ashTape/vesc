@@ -12,7 +12,7 @@
   <arg name="debug_msg" default="false" />
 
   <!-- VESC driver parameters -->
-  <arg name="port" default="/dev/ttyUSB0" />
+  <arg name="port" default="/dev/ttyACM0" />
   <arg name="num_motor_pole_pairs" default="10" />
 
   <!-- VESC driver node -->
