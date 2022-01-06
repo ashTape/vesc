@@ -39,7 +39,8 @@ namespace vesc_driver
 {
 VescDriver::VescDriver(ros::NodeHandle nh, ros::NodeHandle private_nh)
   : vesc_(std::string(), std::bind(&VescDriver::vescPacketCallback, this, std::placeholders::_1),
-          std::bind(&VescDriver::vescErrorCallback, this, std::placeholders::_1))
+          std::bind(&VescDriver::vescErrorCallback, this, std::placeholders::_1),
+          std::bind(&VescDriver::vescDebugCallback, this, std::placeholders::_1))
   , duty_cycle_limit_(private_nh, "duty_cycle", -1.0, 1.0)
   , current_limit_(private_nh, "current")
   , brake_limit_(private_nh, "brake")
@@ -210,6 +211,11 @@ void VescDriver::vescPacketCallback(const std::shared_ptr<VescPacket const>& pac
 void VescDriver::vescErrorCallback(const std::string& error)
 {
   ROS_ERROR("%s", error.c_str());
+}
+
+void VescDriver::vescDebugCallback(const std::string& debug)
+{
+  ROS_DEBUG("%s", debug.c_str());
 }
 
 /**

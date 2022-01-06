@@ -8,6 +8,9 @@
   <arg if="$(arg debug)" name="launch_prefix" value="xterm -e gdb --args" />
   <arg unless="$(arg debug)" name="launch_prefix" value="" />
 
+  <!-- Optionally launch in GDB, for debugging -->
+  <arg name="debug_msg" default="false" />
+
   <!-- VESC driver parameters -->
   <arg name="port" default="/dev/ttyUSB0" />
   <arg name="num_motor_pole_pairs" default="10" />
@@ -17,4 +20,9 @@
     <param name="port" value="$(arg port)" />
     <param name="num_motor_pole_pairs" value="$(arg num_motor_pole_pairs)" />
   </node>
+
+  <group if="$(arg debug_msg)">
+    <node pkg="rosservice" type="rosservice" name="set_vesc_driver_log_level" args="call --wait /vesc_driver_node/set_logger_level 'ros.vesc_driver' 'debug'" />
+  </group>
+
 </launch>

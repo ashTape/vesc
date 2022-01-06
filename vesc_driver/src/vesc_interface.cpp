@@ -57,6 +57,7 @@ public:
   bool rx_thread_run_;
   PacketHandlerFunction packet_handler_;
   ErrorHandlerFunction error_handler_;
+  DebugHandlerFunction debug_handler_;
   serial::Serial serial_;
   VescFrame::CRC send_crc_;
 };
@@ -74,6 +75,12 @@ void* VescInterface::Impl::rxThread(void)
       // search buffer for valid packet(s)
       Buffer::iterator iter(buffer.begin());
       Buffer::iterator iter_begin(buffer.begin());
+
+      std::ostringstream ss_debug;
+      ss_debug << "iter: " << *iter << ", iter_begin: " << *iter_begin;
+      debug_handler_(ss_debug.str());
+      ss_debug.clear();
+
       while (iter != buffer.end())
       {
         // check if valid start-of-frame character
@@ -91,12 +98,24 @@ void* VescInterface::Impl::rxThread(void)
               ss << "Out-of-sync with VESC, unknown data leading valid frame. Discarding "
                  << std::distance(iter_begin, iter) << " bytes.";
               error_handler_(ss.str());
+
+              ss_debug << "Buffer Data: ";
+              for (const auto& b : buffer)
+              {
+                ss_debug << b << " ";
+              }
+              debug_handler_(ss_debug.str());
+              ss_debug.clear();
             }
             // call packet handler
             packet_handler_(packet);
             // update state
             iter = iter + packet->getFrame().size();
             iter_begin = iter;
+
+            ss_debug << "[Processed] iter: " << *iter << ", iter_begin: " << *iter_begin;
+            debug_handler_(ss_debug.str());
+            ss_debug.clear();
             // continue to look for another frame in buffer
             continue;
           }
@@ -125,8 +144,15 @@ void* VescInterface::Impl::rxThread(void)
         std::ostringstream ss;
         ss << "Out-of-sync with VESC, discarding " << std::distance(iter_begin, iter) << " bytes.";
         error_handler_(ss.str());
+
+        ss_debug << "Distance: " << std::distance(iter_begin, iter);
+        debug_handler_(ss_debug.str());
+        ss_debug.clear();
+        ss_debug << "[Processed] iter: " << *iter << ", iter_begin: " << *iter_begin;
+        debug_handler_(ss_debug.str());
+        ss_debug.clear();
       }
-      buffer.erase(buffer.begin(), iter);
+      // buffer.erase(buffer.begin(), iter);
     }
 
     // attempt to read at least bytes_needed bytes from the serial port
@@ -140,11 +166,13 @@ void* VescInterface::Impl::rxThread(void)
 }
 
 VescInterface::VescInterface(const std::string& port, const PacketHandlerFunction& packet_handler,
-                             const ErrorHandlerFunction& error_handler)
+                             const ErrorHandlerFunction& error_handler,
+                             const DebugHandlerFunction& debug_handler)
   : impl_(new Impl())
 {
   setPacketHandler(packet_handler);
   setErrorHandler(error_handler);
+  setDebugHandler(debug_handler);
   // attempt to conect if the port is specified
   if (!port.empty())
     connect(port);
@@ -168,6 +196,12 @@ void VescInterface::setErrorHandler(const ErrorHandlerFunction& handler)
 {
   // todo - definately need mutex
   impl_->error_handler_ = handler;
+}
+
+void VescInterface::setDebugHandler(const DebugHandlerFunction& handler)
+{
+  // todo - definately need mutex
+  impl_->debug_handler_ = handler;
 }
 
 void VescInterface::connect(const std::string& port)
