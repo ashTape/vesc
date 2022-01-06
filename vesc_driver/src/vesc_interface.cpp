@@ -57,6 +57,7 @@ public:
   bool rx_thread_run_;
   PacketHandlerFunction packet_handler_;
   ErrorHandlerFunction error_handler_;
+  DebugHandlerFunction debug_handler_;
   serial::Serial serial_;
   VescFrame::CRC send_crc_;
 };
@@ -140,11 +141,13 @@ void* VescInterface::Impl::rxThread(void)
 }
 
 VescInterface::VescInterface(const std::string& port, const PacketHandlerFunction& packet_handler,
-                             const ErrorHandlerFunction& error_handler)
+                             const ErrorHandlerFunction& error_handler,
+                             const DebugHandlerFunction& debug_handler)
   : impl_(new Impl())
 {
   setPacketHandler(packet_handler);
   setErrorHandler(error_handler);
+  setDebugHandler(debug_handler);
   // attempt to conect if the port is specified
   if (!port.empty())
     connect(port);
@@ -168,6 +171,12 @@ void VescInterface::setErrorHandler(const ErrorHandlerFunction& handler)
 {
   // todo - definately need mutex
   impl_->error_handler_ = handler;
+}
+
+void VescInterface::setDebugHandler(const DebugHandlerFunction& handler)
+{
+  // todo - definately need mutex
+  impl_->debug_handler_ = handler;
 }
 
 void VescInterface::connect(const std::string& port)

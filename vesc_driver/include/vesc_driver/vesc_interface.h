@@ -63,6 +63,7 @@ class VescInterface : private boost::noncopyable
 public:
   typedef std::function<void(const VescPacketConstPtr&)> PacketHandlerFunction;
   typedef std::function<void(const std::string&)> ErrorHandlerFunction;
+  typedef std::function<void(const std::string&)> DebugHandlerFunction;
 
   /**
    * Creates a VescInterface object. Opens the serial port interface to the VESC if @p port is not
@@ -75,9 +76,11 @@ public:
    *
    * @throw SerialException
    */
+
   VescInterface(const std::string& port = std::string(),
                 const PacketHandlerFunction& packet_handler = PacketHandlerFunction(),
-                const ErrorHandlerFunction& error_handler = ErrorHandlerFunction());
+                const ErrorHandlerFunction& error_handler = ErrorHandlerFunction(),
+                const DebugHandlerFunction& debug_handler = DebugHandlerFunction());
 
   /**
    * VescInterface destructor.
@@ -94,6 +97,12 @@ public:
    * checksum.
    */
   void setErrorHandler(const ErrorHandlerFunction& handler);
+
+  /**
+   * Sets / updates the function that this class calls when an error is detected, such as a bad
+   * checksum.
+   */
+  void setDebugHandler(const DebugHandlerFunction& handler);
 
   /**
    * Opens the serial port interface to the VESC.

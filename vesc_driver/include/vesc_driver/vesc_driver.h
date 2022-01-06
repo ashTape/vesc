@@ -64,6 +64,7 @@ private:
   VescInterface vesc_;
   void vescPacketCallback(const std::shared_ptr<VescPacket const>& packet);
   void vescErrorCallback(const std::string& error);
+  void vescDebugCallback(const std::string& debug);
 
   // limits on VESC commands
   struct CommandLimit
