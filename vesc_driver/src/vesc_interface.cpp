@@ -77,9 +77,7 @@ void* VescInterface::Impl::rxThread(void)
       Buffer::iterator iter_begin(buffer.begin());
 
       std::ostringstream ss_debug;
-      ss_debug << "iter: " << *iter << ", iter_begin: " << *iter_begin;
-      debug_handler_(ss_debug.str());
-      ss_debug.clear();
+      ss_debug << "\n[Beginning] iter: " << static_cast<int>(*iter) << ", iter_begin: " << static_cast<int>(*iter_begin) <<"\n";
 
       while (iter != buffer.end())
       {
@@ -99,23 +97,23 @@ void* VescInterface::Impl::rxThread(void)
                  << std::distance(iter_begin, iter) << " bytes.";
               error_handler_(ss.str());
 
-              ss_debug << "Buffer Data: ";
-              for (const auto& b : buffer)
-              {
-                ss_debug << b << " ";
-              }
-              debug_handler_(ss_debug.str());
-              ss_debug.clear();
             }
+
+            ss_debug << "Buffer Data: ";
+            for (const auto& b : buffer)
+            {
+              ss_debug << static_cast<int>(b) << " ";
+            }
+            ss_debug << "\n";
+
+            ss_debug << "[Processe 1] iter: " << static_cast<int>(*iter) << ", iter_begin: " << static_cast<int>(*iter_begin) << " Distance: " << std::distance(iter_begin, iter) << "\n";
             // call packet handler
             packet_handler_(packet);
             // update state
             iter = iter + packet->getFrame().size();
             iter_begin = iter;
 
-            ss_debug << "[Processed] iter: " << *iter << ", iter_begin: " << *iter_begin;
-            debug_handler_(ss_debug.str());
-            ss_debug.clear();
+            ss_debug << "[Processe 2] iter: " << static_cast<int>(*iter) << ", iter_begin: " << static_cast<int>(*iter_begin) << " Distance: " << std::distance(iter_begin, iter) << "\n";
             // continue to look for another frame in buffer
             continue;
           }
@@ -145,14 +143,10 @@ void* VescInterface::Impl::rxThread(void)
         ss << "Out-of-sync with VESC, discarding " << std::distance(iter_begin, iter) << " bytes.";
         error_handler_(ss.str());
 
-        ss_debug << "Distance: " << std::distance(iter_begin, iter);
+        ss_debug << "[Processed 3] iter: " << static_cast<int>(*iter) << ", iter_begin: " << static_cast<int>(*iter_begin) << " Distance: " << std::distance(iter_begin, iter) <<"\n";
         debug_handler_(ss_debug.str());
-        ss_debug.clear();
-        ss_debug << "[Processed] iter: " << *iter << ", iter_begin: " << *iter_begin;
-        debug_handler_(ss_debug.str());
-        ss_debug.clear();
       }
-      // buffer.erase(buffer.begin(), iter);
+      buffer.erase(buffer.begin(), iter);
     }
 
     // attempt to read at least bytes_needed bytes from the serial port
