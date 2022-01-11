@@ -161,7 +161,7 @@ VescPacketPtr VescPacketFactory::createPacket(const Buffer::const_iterator& begi
     else
     {
       // no subclass constructor for this packet
-      return createFailed(num_bytes_needed, what, "Unkown payload type.");
+      return createFailed(num_bytes_needed, what, "Unkown payload type. Payload is " + std::to_string(*view_payload.first));
     }
   }
   else

@@ -74,6 +74,7 @@ VescDriver::VescDriver(ros::NodeHandle nh, ros::NodeHandle private_nh)
 
   // get the flag to enable encoder mode
   private_nh.param("encoder", encoder_enabled_, false);
+  ROS_DEBUG("encoder: %d", encoder_enabled_);
   if (encoder_enabled_)
   {
     ROS_INFO("Set DC Motor with Encoder Mode");
@@ -137,6 +138,17 @@ void VescDriver::timerCallback(const ros::TimerEvent& event)
    */
   if (driver_mode_ == MODE_INITIALIZING)
   {
+    if (encoder_enabled_)
+    {
+        ROS_DEBUG("Set Postion Mode");
+        vesc_.setDetect(static_cast<uint8_t>(DISP_POS_MODE_ENCODER));
+    }
+    else
+    {
+        ROS_DEBUG("Set Postion Mode None");
+        vesc_.setDetect(static_cast<uint8_t>(DISP_POS_MODE_NONE));
+    }
+
     // request version number, return packet will update the internal version numbers
     vesc_.requestFWVersion();
     if (fw_version_major_ >= 0 && fw_version_minor_ >= 0)
@@ -144,18 +156,16 @@ void VescDriver::timerCallback(const ros::TimerEvent& event)
       ROS_INFO("Connected to VESC with firmware version %d.%d", fw_version_major_, fw_version_minor_);
       driver_mode_ = MODE_OPERATING;
     }
-    if (encoder_enabled_)
-    {
-        vesc_.setDetect(DISP_POS_MODE_ENCODER);
-    }
   }
   else if (driver_mode_ == MODE_OPERATING)
   {
     // poll for vesc state (telemetry)
+    ROS_DEBUG("RequestState");
     vesc_.requestState();
     if (encoder_enabled_)
     {
-        vesc_.requestRotorPosition();
+        // ROS_DEBUG("RequestRotor");
+        // vesc_.requestRotorPosition();
     }
   }
   else
@@ -167,6 +177,7 @@ void VescDriver::timerCallback(const ros::TimerEvent& event)
 
 void VescDriver::vescPacketCallback(const std::shared_ptr<VescPacket const>& packet)
 {
+    ROS_DEBUG("Callback Packet Name: %s", packet->getName().c_str());
   if (packet->getName() == "Values")
   {
     std::shared_ptr<VescPacketValues const> values = std::dynamic_pointer_cast<VescPacketValues const>(packet);
@@ -195,7 +206,7 @@ void VescDriver::vescPacketCallback(const std::shared_ptr<VescPacket const>& pac
     std::shared_ptr<VescPacketRotorPosition const> rotor_position = std::dynamic_pointer_cast<VescPacketRotorPosition const>(packet);
     std_msgs::Float32::Ptr encoder_msg(new std_msgs::Float32);
     encoder_msg->data = rotor_position->getRotorPosition();
-
+    ROS_DEBUG("Rotor Position data: %f", encoder_msg->data);
     encoder_pub_.publish(encoder_msg);
   }
   else if (packet->getName() == "FWVersion")
@@ -205,6 +216,10 @@ void VescDriver::vescPacketCallback(const std::shared_ptr<VescPacket const>& pac
     // todo: might need lock here
     fw_version_major_ = fw_version->fwMajor();
     fw_version_minor_ = fw_version->fwMinor();
+  }
+  else if (packet->getName() == "SetDetect")
+  {
+    ROS_DEBUG("Set Detect");
   }
 }
 

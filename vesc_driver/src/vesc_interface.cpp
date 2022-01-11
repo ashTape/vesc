@@ -66,6 +66,7 @@ void* VescInterface::Impl::rxThread(void)
 {
   Buffer buffer;
   buffer.reserve(4096);
+  bool debug = true;
 
   while (rx_thread_run_)
   {
@@ -89,10 +90,12 @@ void* VescInterface::Impl::rxThread(void)
           VescPacketConstPtr packet = VescPacketFactory::createPacket(iter, buffer.end(), &bytes_needed, &error);
           if (packet)
           {
+            int dist = static_cast<int>(std::distance(iter_begin, iter));
             // good packet, check if we skipped any data
-            if (std::distance(iter_begin, iter) > 0)
+            if (dist  > 0)
             {
               std::ostringstream ss;
+              dist = std::distance(iter_begin, iter);
               ss << "Out-of-sync with VESC, unknown data leading valid frame. Discarding "
                  << std::distance(iter_begin, iter) << " bytes.";
               error_handler_(ss.str());
@@ -136,11 +139,12 @@ void* VescInterface::Impl::rxThread(void)
       if (iter == buffer.end())
         bytes_needed = VescFrame::VESC_MIN_FRAME_SIZE;
 
+      int dist2 = std::distance(iter_begin, iter);
       // erase "used" buffer
-      if (std::distance(iter_begin, iter) > 0)
+      if (dist2 > 0)
       {
         std::ostringstream ss;
-        ss << "Out-of-sync with VESC, discarding " << std::distance(iter_begin, iter) << " bytes.";
+        ss << "Out-of-sync with VESC, discarding " << dist2 << " bytes.";
         error_handler_(ss.str());
 
         ss_debug << "[Processed 3] iter: " << static_cast<int>(*iter) << ", iter_begin: " << static_cast<int>(*iter_begin) << " Distance: " << std::distance(iter_begin, iter) <<"\n";

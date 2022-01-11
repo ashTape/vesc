@@ -1,0 +1,2880 @@
+
+started roslaunch server http://alienash_lin:44497/
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: melodic
+ * /rosversion: 1.14.12
+ * /vesc_driver_node/encoder: True
+ * /vesc_driver_node/num_motor_pole_pairs: 10
+ * /vesc_driver_node/port: /dev/ttyACM0
+
+NODES
+  /
+    set_vesc_driver_log_level (rosservice/rosservice)
+    vesc_driver_node (vesc_driver/vesc_driver_node)
+
+auto-starting new master
+process[master]: started with pid [3137]
+ROS_MASTER_URI=http://localhost:11311
+
+setting /run_id to 6a635532-6ed5-11ec-a481-e470b8104ebf
+process[rosout-1]: started with pid [3157]
+started core service [/rosout]
+process[vesc_driver_node-2]: started with pid [3169]
+process[set_vesc_driver_log_level-3]: started with pid [3180]
+[ERROR] [1641462344.575564769]: Unkown payload type.
+[ERROR] [1641462344.577483913]: Invalid end-of-frame character
+[ERROR] [1641462344.577580539]: Out-of-sync with VESC, discard
+ing 9 bytes.
+[ INFO] [1641462344.577623581]: Set DC Motor with Encoder Mode
+[ERROR] [1641462344.719545845]: Invalid end-of-frame character
+[ERROR] [1641462344.719625012]: Unkown payload type.
+[ERROR] [1641462344.719743680]: Invalid end-of-frame character
+[ERROR] [1641462344.719812972]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[ERROR] [1641462344.719896265]: Invalid end-of-frame character
+[ERROR] [1641462344.719942349]: Unkown payload type.
+[ERROR] [1641462344.719976766]: Invalid end-of-frame character
+[ERROR] [1641462344.720014891]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[ERROR] [1641462344.726043660]: Invalid end-of-frame character
+[ERROR] [1641462344.726115286]: Unkown payload type.
+[ERROR] [1641462344.726155453]: Invalid end-of-frame character
+[ERROR] [1641462344.726194620]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[ERROR] [1641462344.736018344]: Invalid end-of-frame character
+[ERROR] [1641462344.736075428]: Unkown payload type.
+[ERROR] [1641462344.736106303]: Invalid end-of-frame character
+[ERROR] [1641462344.736135220]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[ERROR] [1641462344.739197168]: Invalid end-of-frame character
+[ERROR] [1641462344.739254793]: Unkown payload type.
+[ERROR] [1641462344.739289752]: Invalid end-of-frame character
+[ERROR] [1641462344.739316544]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[ERROR] [1641462344.739358169]: Invalid end-of-frame character
+[ERROR] [1641462344.739396045]: Unkown payload type.
+[ERROR] [1641462344.739424670]: Invalid end-of-frame character
+[ERROR] [1641462344.739458587]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[ERROR] [1641462344.745356480]: Invalid end-of-frame character
+[ERROR] [1641462344.745392563]: Unkown payload type.
+[ERROR] [1641462344.745419689]: Invalid end-of-frame character
+[ERROR] [1641462344.745449689]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[ERROR] [1641462344.755372081]: Invalid end-of-frame character
+[ERROR] [1641462344.755454456]: Unkown payload type.
+[ERROR] [1641462344.755487082]: Invalid end-of-frame character
+[ERROR] [1641462344.755515499]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[ERROR] [1641462344.758931075]: Invalid checksum
+[ERROR] [1641462344.758971783]: Unkown payload type.
+[ERROR] [1641462344.758997117]: Invalid end-of-frame character
+[ERROR] [1641462344.759028951]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[ERROR] [1641462344.759059451]: Invalid end-of-frame character
+[ERROR] [1641462344.759077451]: Unkown payload type.
+[ERROR] [1641462344.759097618]: Invalid end-of-frame character
+[ERROR] [1641462344.759116077]: Invalid checksum
+[ERROR] [1641462344.759134077]: Unkown payload type.
+[ERROR] [1641462344.759154160]: Invalid end-of-frame character
+[ERROR] [1641462344.759176619]: Out-of-sync with VESC, discard
+ing 20 bytes.
+[ERROR] [1641462344.765332389]: Invalid checksum
+[ERROR] [1641462344.765363890]: Unkown payload type.
+[ERROR] [1641462344.765381890]: Invalid end-of-frame character
+[ERROR] [1641462344.765404390]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[ERROR] [1641462344.775380199]: Invalid checksum
+[ERROR] [1641462344.775425199]: Unkown payload type.
+[ERROR] [1641462344.775480408]: Invalid end-of-frame character
+[ERROR] [1641462344.775557284]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[ERROR] [1641462344.779367322]: Invalid end-of-frame character
+[ERROR] [1641462344.779438406]: Unkown payload type.
+[ERROR] [1641462344.779466198]: Invalid end-of-frame character
+[ERROR] [1641462344.779491074]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[ERROR] [1641462344.779573366]: Invalid end-of-frame character
+[ERROR] [1641462344.779616450]: Unkown payload type.
+[ERROR] [1641462344.779665242]: Invalid end-of-frame character
+[ERROR] [1641462344.779684534]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[ERROR] [1641462344.785376966]: Invalid end-of-frame character
+[ERROR] [1641462344.785439717]: Unkown payload type.
+[ERROR] [1641462344.785468925]: Invalid end-of-frame character
+[ERROR] [1641462344.785502342]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[ERROR] [1641462344.795390775]: Invalid end-of-frame character
+[ERROR] [1641462344.795549527]: Unkown payload type.
+[ERROR] [1641462344.795628944]: Invalid end-of-frame character
+[ERROR] [1641462344.795703487]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[ERROR] [1641462344.798999978]: Invalid end-of-frame character
+[ERROR] [1641462344.799040479]: Unkown payload type.
+[ERROR] [1641462344.799065854]: Invalid end-of-frame character
+[ERROR] [1641462344.799085063]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[ERROR] [1641462344.799118313]: Invalid end-of-frame character
+[ERROR] [1641462344.799139813]: Unkown payload type.
+[ERROR] [1641462344.799163938]: Invalid end-of-frame character
+[ERROR] [1641462344.799184022]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[ERROR] [1641462344.805360667]: Invalid end-of-frame character
+[ERROR] [1641462344.805441043]: Unkown payload type.
+[ERROR] [1641462344.805466502]: Invalid end-of-frame character
+[ERROR] [1641462344.805484627]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[ERROR] [1641462344.815388435]: Invalid end-of-frame character
+[ERROR] [1641462344.815453019]: Unkown payload type.
+[ERROR] [1641462344.815535478]: Invalid end-of-frame character
+[ERROR] [1641462344.815567270]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[ERROR] [1641462344.818659676]: Invalid end-of-frame character
+[ERROR] [1641462344.818698260]: Unkown payload type.
+[ERROR] [1641462344.818751469]: Invalid end-of-frame character
+[ERROR] [1641462344.818776261]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[ERROR] [1641462344.818860345]: Invalid end-of-frame character
+[ERROR] [1641462344.818880637]: Unkown payload type.
+[ERROR] [1641462344.818901762]: Invalid end-of-frame character
+[ERROR] [1641462344.818928888]: Invalid end-of-frame character
+[ERROR] [1641462344.818952304]: Unkown payload type.
+[ERROR] [1641462344.818975346]: Invalid end-of-frame character
+[ERROR] [1641462344.818996013]: Out-of-sync with VESC, discard
+ing 20 bytes.
+[ERROR] [1641462344.825381953]: Invalid end-of-frame character
+[ERROR] [1641462344.825429328]: Unkown payload type.
+[ERROR] [1641462344.825454495]: Invalid end-of-frame character
+[ERROR] [1641462344.825476370]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[ERROR] [1641462344.835472304]: Invalid end-of-frame character
+[ERROR] [1641462344.835544305]: Unkown payload type.
+[ERROR] [1641462344.835626222]: Invalid end-of-frame character
+[ERROR] [1641462344.835665764]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[ERROR] [1641462344.839223300]: Invalid end-of-frame character
+[ERROR] [1641462344.839306051]: Unkown payload type.
+[ERROR] [1641462344.839337801]: Invalid checksum
+[ERROR] [1641462344.839360427]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[ERROR] [1641462344.839396635]: Invalid end-of-frame character
+[ERROR] [1641462344.839419261]: Unkown payload type.
+[ERROR] [1641462344.839446386]: Invalid end-of-frame character
+[ERROR] [1641462344.839482470]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[ERROR] [1641462344.845402738]: Invalid end-of-frame character
+[ERROR] [1641462344.845503030]: Unkown payload type.
+[ERROR] [1641462344.845557906]: Invalid checksum
+[ERROR] [1641462344.845636240]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[ERROR] [1641462344.859272544]: Invalid end-of-frame character
+[ERROR] [1641462344.859331003]: Out-of-sync with VESC, unknown
+ data leading valid frame. Discarding 1 bytes.
+[ERROR] [1641462344.859433671]: Unkown payload type.
+[ERROR] [1641462344.859456379]: Invalid end-of-frame character
+[ERROR] [1641462344.859479004]: Out-of-sync with VESC, discard
+ing 9 bytes.
+[ERROR] [1641462344.865415981]: Invalid end-of-frame character
+[ERROR] [1641462344.865472606]: Unkown payload type.
+[ERROR] [1641462344.865525857]: Invalid checksum
+[ERROR] [1641462344.865580191]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[ INFO] [1641462344.878442862]: Connected to VESC with firmwar
+e version 3.62
+[ERROR] [1641462344.879297787]: Invalid end-of-frame character
+[ERROR] [1641462344.879406372]: Out-of-sync with VESC, unknown
+ data leading valid frame. Discarding 1 bytes.
+[ERROR] [1641462344.879516540]: Unkown payload type.
+[ERROR] [1641462344.879615624]: Invalid end-of-frame character
+[ERROR] [1641462344.879630916]: Out-of-sync with VESC, discard
+ing 9 bytes.
+[ERROR] [1641462344.885386349]: Invalid end-of-frame character
+[ERROR] [1641462344.885436349]: Unkown payload type.
+[ERROR] [1641462344.885463349]: Invalid checksum
+[ERROR] [1641462344.885487725]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[ERROR] [1641462344.899602325]: Invalid end-of-frame character
+[ERROR] [1641462344.899658034]: Out-of-sync with VESC, unknown
+ data leading valid frame. Discarding 1 bytes.
+[ERROR] [1641462344.899748368]: Unkown payload type.
+[ERROR] [1641462344.899793077]: Invalid end-of-frame character
+[ERROR] [1641462344.899811202]: Out-of-sync with VESC, discard
+ing 9 bytes.
+[ERROR] [1641462344.899886453]: Invalid end-of-frame character
+[ERROR] [1641462344.899900037]: Unkown payload type.
+[ERROR] [1641462344.899913620]: Invalid checksum
+[ERROR] [1641462344.899927204]: Invalid end-of-frame character
+[ERROR] [1641462344.899940787]: Out-of-sync with VESC, unknown
+ data leading valid frame. Discarding 11 bytes.
+[ERROR] [1641462344.900017663]: Unkown payload type.
+[ERROR] [1641462344.900040246]: Invalid end-of-frame character
+[ERROR] [1641462344.900062788]: Invalid end-of-frame character
+[ERROR] [1641462344.900085330]: Unkown payload type.
+[ERROR] [1641462344.900107872]: Invalid checksum
+[ERROR] [1641462344.900130372]: Out-of-sync with VESC, discard
+ing 19 bytes.
+[ERROR] [1641462344.915472902]: Invalid end-of-frame character
+[ERROR] [1641462344.915562486]: Out-of-sync with VESC, unknown
+ data leading valid frame. Discarding 1 bytes.
+[ERROR] [1641462344.915657737]: Unkown payload type.
+[ERROR] [1641462344.915712946]: Invalid end-of-frame character
+[ERROR] [1641462344.915735529]: Out-of-sync with VESC, discard
+ing 9 bytes.
+[ERROR] [1641462344.920126032]: Invalid end-of-frame character
+[ERROR] [1641462344.920201074]: Unkown payload type.
+[ERROR] [1641462344.920228075]: Invalid checksum
+[ERROR] [1641462344.920250658]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[ERROR] [1641462344.920311367]: Invalid end-of-frame character
+[ERROR] [1641462344.920379285]: Out-of-sync with VESC, unknown
+ data leading valid frame. Discarding 1 bytes.
+[ERROR] [1641462344.920475952]: Unkown payload type.
+[ERROR] [1641462344.920526328]: Invalid end-of-frame character
+[ERROR] [1641462344.920548828]: Invalid end-of-frame character
+[ERROR] [1641462344.920571328]: Unkown payload type.
+[ERROR] [1641462344.920593870]: Invalid checksum
+[ERROR] [1641462344.920616412]: Out-of-sync with VESC, discard
+ing 19 bytes.
+[ERROR] [1641462344.925365418]: Invalid end-of-frame character
+[ERROR] [1641462344.925432961]: Out-of-sync with VESC, unknown
+ data leading valid frame. Discarding 1 bytes.
+[ERROR] [1641462344.925543128]: Unkown payload type.
+[ERROR] [1641462344.925620046]: Invalid end-of-frame character
+[ERROR] [1641462344.925699255]: Out-of-sync with VESC, discard
+ing 9 bytes.
+[ERROR] [1641462344.939580478]: Invalid end-of-frame character
+[ERROR] [1641462344.939619562]: Unkown payload type.
+[ERROR] [1641462344.939696021]: Invalid checksum
+[ERROR] [1641462344.939718729]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[ERROR] [1641462344.939750480]: Invalid end-of-frame character
+[ERROR] [1641462344.939773147]: Out-of-sync with VESC, unknown
+ data leading valid frame. Discarding 1 bytes.
+[ERROR] [1641462344.939832064]: Unkown payload type.
+[ERROR] [1641462344.939854689]: Invalid end-of-frame character
+[ERROR] [1641462344.939877314]: Invalid end-of-frame character
+[ERROR] [1641462344.939899898]: Unkown payload type.
+[ERROR] [1641462344.939917981]: Invalid checksum
+[ERROR] [1641462344.939931523]: Invalid end-of-frame character
+[ERROR] [1641462344.939958607]: Out-of-sync with VESC, unknown
+ data leading valid frame. Discarding 20 bytes.
+[ERROR] [1641462344.940037108]: Unkown payload type.
+[ERROR] [1641462344.940065150]: Invalid end-of-frame character
+[ERROR] [1641462344.940094108]: Out-of-sync with VESC, discard
+ing 9 bytes.
+[ERROR] [1641462344.955407221]: Invalid end-of-frame character
+[ERROR] [1641462344.955494305]: Unkown payload type.
+[ERROR] [1641462344.955513930]: Invalid checksum
+[ERROR] [1641462344.955536597]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[ERROR] [1641462344.960501647]: Invalid end-of-frame character
+[ERROR] [1641462344.960557523]: Out-of-sync with VESC, unknown
+ data leading valid frame. Discarding 1 bytes.
+[ERROR] [1641462344.960667607]: Unkown payload type.
+[ERROR] [1641462344.960694774]: Invalid end-of-frame character
+[ERROR] [1641462344.960721941]: Out-of-sync with VESC, discard
+ing 9 bytes.
+[DEBUG] [1641462344.960754275]: 
+[Beginning] iter: 3, iter_begin: 3
+Buffer Data: 3 2 19 0 3 62 54 48 0 62 0 28 0 2 80 77 55 72 48 
+49 32 0 190 248 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201
+ 236 48 123 3 2 19 0 3 62 54 48 0 62 0 28 0 2 80 77 55 72 48 4
+9 32 0 190 248 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 
+236 48 123 3 2 19 0 3 62 54 48 0 62 0 28 0 2 80 77 55 72 48 49
+ 32 0 190 248 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 2
+36 48 123 3 2 19 0 3 62 54 48 0 62 0 28 0 2 80 77 55 72 48 49 
+32 0 190 248 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 23
+6 48 123 3 2 19 0 3 62 54 48 0 62 0 28 0 2 80 77 55 72 48 49 3
+2 0 190 248 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236
+ 48 123 3 2 73 4 1 19 252 227 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 
+0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 98 227 3 2
+ 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 
+4 1 20 252 128 0 0 0 9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1
+92 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 2
+27 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 63 179 3 2 5 22 2 26 201 
+236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 19 252 249 
+0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 193 0 0 0 0 0 0 
+0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 243 44 3 2 5 22 2 26 201 236 48 123 3 2 
+5 22 2 26 201 236 48 123 3 2 73 4 1 19 252 248 0 0 0 7 0 0 0 0
+ 0 0 0 0 0 0 0 
+[Processe 1] iter: 2, iter_begin: 3 Distance: 1
+[Processe 2] iter: 2, iter_begin: 2 Distance: 0
+[Processed 3] iter: 3, iter_begin: 2 Distance: 9
+
+[ERROR] [1641462344.960813025]: Invalid end-of-frame character
+[ERROR] [1641462344.960840109]: Unkown payload type.
+[ERROR] [1641462344.960867192]: Invalid checksum
+[ERROR] [1641462344.960889693]: Invalid end-of-frame character
+[ERROR] [1641462344.960912235]: Out-of-sync with VESC, unknown
+ data leading valid frame. Discarding 11 bytes.
+[ERROR] [1641462344.960970735]: Unkown payload type.
+[ERROR] [1641462344.960988735]: Invalid end-of-frame character
+[ERROR] [1641462344.961016194]: Out-of-sync with VESC, discard
+ing 9 bytes.
+[DEBUG] [1641462344.961047653]: 
+[Beginning] iter: 3, iter_begin: 3
+Buffer Data: 3 2 5 22 2 26 201 236 48 123 3 2 19 0 3 62 54 48 
+0 62 0 28 0 2 80 77 55 72 48 49 32 0 190 248 3 2 5 22 2 26 201
+ 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 19 0 3 62 54 48 0
+ 62 0 28 0 2 80 77 55 72 48 49 32 0 190 248 3 2 5 22 2 26 201 
+236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 19 0 3 62 54 48 0 
+62 0 28 0 2 80 77 55 72 48 49 32 0 190 248 3 2 5 22 2 26 201 2
+36 48 123 3 2 5 22 2 26 201 236 48 123 3 2 19 0 3 62 54 48 0 6
+2 0 28 0 2 80 77 55 72 48 49 32 0 190 248 3 2 5 22 2 26 201 23
+6 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 19 252 227 0 
+0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 193 0 0 0 0 0 0 0 
+9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 98 227 3 2 5 22 2 26 201 236 48 123 3 2 5 
+22 2 26 201 236 48 123 3 2 73 4 1 20 252 128 0 0 0 9 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 192 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0
+ 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 63 179 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236
+ 48 123 3 2 73 4 1 19 252 249 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 
+0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 243 44 3 2
+ 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 
+4 1 19 252 248 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1
+93 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 2
+27 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 147 53 3 
+[Processe 1] iter: 2, iter_begin: 3 Distance: 11
+[Processe 2] iter: 2, iter_begin: 2 Distance: 0
+[Processed 3] iter: 3, iter_begin: 2 Distance: 9
+
+[ERROR] [1641462344.966041703]: Invalid end-of-frame character
+[ERROR] [1641462344.966096204]: Unkown payload type.
+[ERROR] [1641462344.966112370]: Invalid checksum
+[ERROR] [1641462344.966130579]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[DEBUG] [1641462344.966148787]: 
+[Beginning] iter: 3, iter_begin: 3
+[Processed 3] iter: 3, iter_begin: 3 Distance: 10
+
+[ERROR] [1641462344.979759883]: Invalid end-of-frame character
+[ERROR] [1641462344.979791466]: Out-of-sync with VESC, unknown
+ data leading valid frame. Discarding 1 bytes.
+[ERROR] [1641462344.979841050]: Unkown payload type.
+[ERROR] [1641462344.979859009]: Invalid end-of-frame character
+[ERROR] [1641462344.979881509]: Out-of-sync with VESC, discard
+ing 9 bytes.
+[DEBUG] [1641462344.979908509]: 
+[Beginning] iter: 3, iter_begin: 3
+Buffer Data: 3 2 19 0 3 62 54 48 0 62 0 28 0 2 80 77 55 72 48 
+49 32 0 190 248 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201
+ 236 48 123 3 2 19 0 3 62 54 48 0 62 0 28 0 2 80 77 55 72 48 4
+9 32 0 190 248 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 
+236 48 123 3 2 19 0 3 62 54 48 0 62 0 28 0 2 80 77 55 72 48 49
+ 32 0 190 248 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 2
+36 48 123 3 2 73 4 1 19 252 227 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 
+0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 98 227 3
+ 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 7
+3 4 1 20 252 128 0 0 0 9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 192 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11
+ 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 63 179 3 2 5 22 2 26 20
+1 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 19 252 24
+9 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 193 0 0 0 0 0 
+0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 243 44 3 2 5 22 2 26 201 236 48 123 3 
+2 5 22 2 26 201 236 48 123 3 2 73 4 1 19 252 248 0 0 0 7 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0
+ 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 147 53 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201
+ 236 48 123 3 2 73 4 1 19 252 250 0 0 0 9 0 
+[Processe 1] iter: 2, iter_begin: 3 Distance: 1
+[Processe 2] iter: 2, iter_begin: 2 Distance: 0
+[Processed 3] iter: 3, iter_begin: 2 Distance: 9
+
+[ERROR] [1641462344.979962552]: Invalid end-of-frame character
+[ERROR] [1641462344.979980552]: Unkown payload type.
+[ERROR] [1641462344.979998552]: Invalid checksum
+[ERROR] [1641462344.980016552]: Invalid end-of-frame character
+[ERROR] [1641462344.980034552]: Out-of-sync with VESC, unknown
+ data leading valid frame. Discarding 11 bytes.
+[ERROR] [1641462344.980079636]: Unkown payload type.
+[ERROR] [1641462344.980097636]: Invalid end-of-frame character
+[ERROR] [1641462344.980115636]: Invalid end-of-frame character
+[ERROR] [1641462344.980133595]: Unkown payload type.
+[ERROR] [1641462344.980151595]: Invalid checksum
+[ERROR] [1641462344.980169637]: Out-of-sync with VESC, discard
+ing 19 bytes.
+[DEBUG] [1641462344.980196679]: 
+[Beginning] iter: 3, iter_begin: 3
+Buffer Data: 3 2 5 22 2 26 201 236 48 123 3 2 19 0 3 62 54 48 
+0 62 0 28 0 2 80 77 55 72 48 49 32 0 190 248 3 2 5 22 2 26 201
+ 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 19 0 3 62 54 48 0
+ 62 0 28 0 2 80 77 55 72 48 49 32 0 190 248 3 2 5 22 2 26 201 
+236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 19 252 227 
+0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 193 0 0 0 0 0 0 
+0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 98 227 3 2 5 22 2 26 201 236 48 123 3 2 
+5 22 2 26 201 236 48 123 3 2 73 4 1 20 252 128 0 0 0 9 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 192 0 0 0 0 0 0 0 9 0 0 0 0 0 0
+ 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 63 179 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 2
+36 48 123 3 2 73 4 1 19 252 249 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 
+0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 243 44 3
+ 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 7
+3 4 1 19 252 248 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11
+ 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 147 53 3 2 5 22 2 26 20
+1 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 19 252 25
+0 0 0 0 9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 192 0 0 0 0 0 
+0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 113 84 3 
+[Processe 1] iter: 2, iter_begin: 3 Distance: 11
+[Processe 2] iter: 2, iter_begin: 2 Distance: 0
+[Processed 3] iter: 3, iter_begin: 2 Distance: 19
+
+[ERROR] [1641462344.998799491]: Invalid end-of-frame character
+[ERROR] [1641462344.998881450]: Out-of-sync with VESC, unknown
+ data leading valid frame. Discarding 1 bytes.
+[ERROR] [1641462344.998977535]: Unkown payload type.
+[ERROR] [1641462344.999051869]: Invalid end-of-frame character
+[ERROR] [1641462344.999065369]: Out-of-sync with VESC, discard
+ing 9 bytes.
+[DEBUG] [1641462344.999154870]: 
+[Beginning] iter: 3, iter_begin: 3
+Buffer Data: 3 2 19 0 3 62 54 48 0 62 0 28 0 2 80 77 55 72 48 
+49 32 0 190 248 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201
+ 236 48 123 3 2 73 4 1 19 252 227 0 0 0 7 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 
+0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 98 227
+ 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2
+ 73 4 1 20 252 128 0 0 0 9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 192 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 
+11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 63 179 3 2 5 22 2 26 
+201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 19 252 
+249 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 193 0 0 0 0 
+0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 243 44 3 2 5 22 2 26 201 236 48 123 
+3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 19 252 248 0 0 0 7 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0
+ 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 147 53 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 2
+01 236 48 123 3 2 73 4 1 19 252 250 0 0 0 9 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 192 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 
+0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 113 
+84 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3
+ 2 73 
+[Processe 1] iter: 2, iter_begin: 3 Distance: 1
+[Processe 2] iter: 2, iter_begin: 2 Distance: 0
+[Processed 3] iter: 3, iter_begin: 2 Distance: 9
+
+[ERROR] [1641462344.999377205]: Invalid end-of-frame character
+[ERROR] [1641462344.999441289]: Unkown payload type.
+[ERROR] [1641462344.999477623]: Invalid end-of-frame character
+[ERROR] [1641462344.999566249]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[DEBUG] [1641462344.999584291]: 
+[Beginning] iter: 3, iter_begin: 3
+[Processed 3] iter: 3, iter_begin: 3 Distance: 10
+
+[ERROR] [1641462345.018902110]: Invalid end-of-frame character
+[ERROR] [1641462345.018970111]: Out-of-sync with VESC, unknown
+ data leading valid frame. Discarding 1 bytes.
+[DEBUG] [1641462345.019053195]: Trying to publish message of t
+ype [vesc_msgs/VescStateStamped/3a2b3a0e5b5f10ce6bbf973d767cdc
+4d] on a publisher with type [vesc_msgs/VescStateStamped/3a2b3
+a0e5b5f10ce6bbf973d767cdc4d]
+[ERROR] [1641462345.019107404]: Unkown payload type.
+[ERROR] [1641462345.019120904]: Invalid end-of-frame character
+[ERROR] [1641462345.019138946]: Out-of-sync with VESC, discard
+ing 9 bytes.
+[DEBUG] [1641462345.019183947]: 
+[Beginning] iter: 3, iter_begin: 3
+Buffer Data: 3 2 73 4 1 19 252 227 0 0 0 7 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0
+ 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 98 22
+7 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 
+2 73 4 1 20 252 128 0 0 0 9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 192 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21
+ 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 63 179 3 2 5 22 2 26
+ 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 19 252
+ 249 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 193 0 0 0 0
+ 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 243 44 3 2 5 22 2 26 201 236 48 123
+ 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 19 252 248 0 0 0 7 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 
+0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 147 53 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 
+201 236 48 123 3 2 73 4 1 19 252 250 0 0 0 9 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 192 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0
+ 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 113
+ 84 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 
+3 2 73 4 1 19 253 9 0 0 0 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 194 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21
+ 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 158 45 3 2 5 22 2 26
+ 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 
+[Processe 1] iter: 2, iter_begin: 3 Distance: 1
+[Processe 2] iter: 2, iter_begin: 2 Distance: 0
+[Processed 3] iter: 3, iter_begin: 2 Distance: 9
+
+[ERROR] [1641462345.019276114]: Invalid end-of-frame character
+[ERROR] [1641462345.019294156]: Unkown payload type.
+[ERROR] [1641462345.019307698]: Invalid end-of-frame character
+[ERROR] [1641462345.019321240]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[DEBUG] [1641462345.019334781]: 
+[Beginning] iter: 3, iter_begin: 3
+[Processed 3] iter: 3, iter_begin: 3 Distance: 10
+
+[ERROR] [1641462345.038835270]: Invalid end-of-frame character
+[ERROR] [1641462345.038921895]: Out-of-sync with VESC, unknown
+ data leading valid frame. Discarding 1 bytes.
+[ERROR] [1641462345.039076772]: Unkown payload type.
+[ERROR] [1641462345.039126273]: Invalid end-of-frame character
+[ERROR] [1641462345.039153398]: Out-of-sync with VESC, discard
+ing 9 bytes.
+[DEBUG] [1641462345.039189523]: 
+[Beginning] iter: 3, iter_begin: 3
+Buffer Data: 3 2 73 4 1 20 252 128 0 0 0 9 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 192 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0
+ 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 63 17
+9 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 
+2 73 4 1 19 252 249 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21
+ 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 243 44 3 2 5 22 2 26
+ 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 19 252
+ 248 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 193 0 0 0 0
+ 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 147 53 3 2 5 22 2 26 201 236 48 123
+ 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 19 252 250 0 0 0 9 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 192 0 0 0 0 0 0 0 9 0 0 0 
+0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 113 84 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 
+201 236 48 123 3 2 73 4 1 19 253 9 0 0 0 6 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 194 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0
+ 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 158 4
+5 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 
+2 73 4 1 20 251 234 0 0 0 9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21
+ 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 143 3 2 5 22 2 26
+ 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 
+[Processe 1] iter: 2, iter_begin: 3 Distance: 1
+[Processe 2] iter: 2, iter_begin: 2 Distance: 0
+[Processed 3] iter: 3, iter_begin: 2 Distance: 9
+
+[ERROR] [1641462345.039300649]: Invalid end-of-frame character
+[ERROR] [1641462345.039323233]: Unkown payload type.
+[ERROR] [1641462345.039345816]: Invalid end-of-frame character
+[ERROR] [1641462345.039372858]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[DEBUG] [1641462345.039395359]: 
+[Beginning] iter: 3, iter_begin: 3
+[Processed 3] iter: 3, iter_begin: 3 Distance: 10
+
+[ERROR] [1641462345.058827846]: Invalid end-of-frame character
+[ERROR] [1641462345.058868346]: Out-of-sync with VESC, unknown
+ data leading valid frame. Discarding 1 bytes.
+[ERROR] [1641462345.058990181]: Unkown payload type.
+[ERROR] [1641462345.059042265]: Invalid end-of-frame character
+[ERROR] [1641462345.059092265]: Out-of-sync with VESC, discard
+ing 9 bytes.
+[DEBUG] [1641462345.059123766]: 
+[Beginning] iter: 3, iter_begin: 3
+Buffer Data: 3 2 73 4 1 19 252 249 0 0 0 7 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0
+ 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 243 4
+4 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 
+2 73 4 1 19 252 248 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21
+ 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 147 53 3 2 5 22 2 26
+ 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 19 252
+ 250 0 0 0 9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 192 0 0 0 0
+ 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 113 84 3 2 5 22 2 26 201 236 48 123
+ 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 19 253 9 0 0 0 6 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 194 0 0 0 0 0 0 0 9 0 0 0 0 
+0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 158 45 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 20
+1 236 48 123 3 2 73 4 1 20 251 234 0 0 0 9 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0
+ 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 14
+3 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 
+2 73 4 1 20 252 149 0 0 0 9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21
+ 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 122 154 3 2 5 22 2 2
+6 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 
+[Processe 1] iter: 2, iter_begin: 3 Distance: 1
+[Processe 2] iter: 2, iter_begin: 2 Distance: 0
+[Processed 3] iter: 3, iter_begin: 2 Distance: 9
+
+[ERROR] [1641462345.059225225]: Invalid end-of-frame character
+[ERROR] [1641462345.059252225]: Unkown payload type.
+[ERROR] [1641462345.059270267]: Invalid end-of-frame character
+[ERROR] [1641462345.059297309]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[DEBUG] [1641462345.059315351]: 
+[Beginning] iter: 3, iter_begin: 3
+[Processed 3] iter: 3, iter_begin: 3 Distance: 10
+
+[ERROR] [1641462345.078927132]: Invalid end-of-frame character
+[ERROR] [1641462345.078991341]: Out-of-sync with VESC, unknown
+ data leading valid frame. Discarding 1 bytes.
+[ERROR] [1641462345.079093133]: Unkown payload type.
+[ERROR] [1641462345.079142926]: Invalid end-of-frame character
+[ERROR] [1641462345.079165509]: Out-of-sync with VESC, discard
+ing 9 bytes.
+[DEBUG] [1641462345.079197176]: 
+[Beginning] iter: 3, iter_begin: 3
+Buffer Data: 3 2 73 4 1 19 252 248 0 0 0 7 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0
+ 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 147 5
+3 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 
+2 73 4 1 19 252 250 0 0 0 9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 192 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21
+ 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 113 84 3 2 5 22 2 26
+ 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 19 253
+ 9 0 0 0 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 194 0 0 0 0 0
+ 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 158 45 3 2 5 22 2 26 201 236 48 123 3
+ 2 5 22 2 26 201 236 48 123 3 2 73 4 1 20 251 234 0 0 0 9 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 
+0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 20 143 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 20
+1 236 48 123 3 2 73 4 1 20 252 149 0 0 0 9 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0
+ 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 122 1
+54 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3
+ 2 73 4 1 20 252 220 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 2
+1 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 73 33 3 2 5 22 2 26
+ 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 
+[Processe 1] iter: 2, iter_begin: 3 Distance: 1
+[Processe 2] iter: 2, iter_begin: 2 Distance: 0
+[Processed 3] iter: 3, iter_begin: 2 Distance: 9
+
+[ERROR] [1641462345.079302760]: Invalid end-of-frame character
+[ERROR] [1641462345.079325386]: Unkown payload type.
+[ERROR] [1641462345.079346094]: Invalid end-of-frame character
+[ERROR] [1641462345.079373178]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[DEBUG] [1641462345.079391220]: 
+[Beginning] iter: 3, iter_begin: 3
+[Processed 3] iter: 3, iter_begin: 3 Distance: 10
+
+[ERROR] [1641462345.098959417]: Invalid end-of-frame character
+[ERROR] [1641462345.098995667]: Out-of-sync with VESC, unknown
+ data leading valid frame. Discarding 1 bytes.
+[ERROR] [1641462345.099138794]: Unkown payload type.
+[ERROR] [1641462345.099171169]: Invalid end-of-frame character
+[ERROR] [1641462345.099202794]: Out-of-sync with VESC, discard
+ing 9 bytes.
+[DEBUG] [1641462345.099243628]: 
+[Beginning] iter: 3, iter_begin: 3
+Buffer Data: 3 2 73 4 1 19 252 250 0 0 0 9 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 192 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0
+ 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 113 8
+4 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 
+2 73 4 1 19 253 9 0 0 0 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 194 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 1
+1 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 158 45 3 2 5 22 2 26 2
+01 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 20 251 2
+34 0 0 0 9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 193 0 0 0 0 0
+ 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 20 143 3 2 5 22 2 26 201 236 48 123 3
+ 2 5 22 2 26 201 236 48 123 3 2 73 4 1 20 252 149 0 0 0 9 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 
+0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 122 154 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 2
+01 236 48 123 3 2 73 4 1 20 252 220 0 0 0 7 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 
+0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 73 3
+3 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 
+2 73 4 1 19 253 8 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 194 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 1
+1 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 134 135 3 2 5 22 2 26 
+201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 
+[Processe 1] iter: 2, iter_begin: 3 Distance: 1
+[Processe 2] iter: 2, iter_begin: 2 Distance: 0
+[Processed 3] iter: 3, iter_begin: 2 Distance: 9
+
+[ERROR] [1641462345.099288795]: Invalid end-of-frame character
+[ERROR] [1641462345.099306795]: Unkown payload type.
+[ERROR] [1641462345.099320337]: Invalid end-of-frame character
+[ERROR] [1641462345.099338337]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[DEBUG] [1641462345.099360879]: 
+[Beginning] iter: 3, iter_begin: 3
+[Processed 3] iter: 3, iter_begin: 3 Distance: 10
+
+[ERROR] [1641462345.118746949]: Invalid end-of-frame character
+[ERROR] [1641462345.118791242]: Out-of-sync with VESC, unknown
+ data leading valid frame. Discarding 1 bytes.
+[ERROR] [1641462345.118883492]: Unkown payload type.
+[ERROR] [1641462345.118925951]: Invalid end-of-frame character
+[ERROR] [1641462345.118956160]: Out-of-sync with VESC, discard
+ing 9 bytes.
+[DEBUG] [1641462345.118996702]: 
+[Beginning] iter: 3, iter_begin: 3
+Buffer Data: 3 2 73 4 1 19 253 9 0 0 0 6 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 194 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0
+ 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 158 45 
+3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 
+73 4 1 20 251 234 0 0 0 9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 1
+1 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 143 3 2 5 22 2 26 2
+01 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 20 252 1
+49 0 0 0 9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 193 0 0 0 0 0
+ 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 122 154 3 2 5 22 2 26 201 236 48 123 
+3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 20 252 220 0 0 0 7 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0
+ 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 73 33 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 20
+1 236 48 123 3 2 73 4 1 19 253 8 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 194 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0
+ 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 134 135
+ 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2
+ 73 4 1 19 253 1 0 0 0 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11
+ 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 194 194 3 2 5 22 2 26 2
+01 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 
+[Processe 1] iter: 2, iter_begin: 3 Distance: 1
+[Processe 2] iter: 2, iter_begin: 2 Distance: 0
+[Processed 3] iter: 3, iter_begin: 2 Distance: 9
+
+[ERROR] [1641462345.119041744]: Invalid end-of-frame character
+[ERROR] [1641462345.119064244]: Unkown payload type.
+[ERROR] [1641462345.119095703]: Invalid end-of-frame character
+[ERROR] [1641462345.119132328]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[DEBUG] [1641462345.119159329]: 
+[Beginning] iter: 3, iter_begin: 3
+[Processed 3] iter: 3, iter_begin: 3 Distance: 10
+
+[ERROR] [1641462345.138993320]: Invalid end-of-frame character
+[ERROR] [1641462345.139079029]: Out-of-sync with VESC, unknown
+ data leading valid frame. Discarding 1 bytes.
+[ERROR] [1641462345.139246364]: Unkown payload type.
+[ERROR] [1641462345.139328782]: Invalid end-of-frame character
+[ERROR] [1641462345.139356032]: Out-of-sync with VESC, discard
+ing 9 bytes.
+[DEBUG] [1641462345.139401366]: 
+[Beginning] iter: 3, iter_begin: 3
+Buffer Data: 3 2 73 4 1 20 251 234 0 0 0 9 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0
+ 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 14
+3 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 
+2 73 4 1 20 252 149 0 0 0 9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21
+ 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 122 154 3 2 5 22 2 2
+6 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 20 25
+2 220 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 193 0 0 0 
+0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 73 33 3 2 5 22 2 26 201 236 48 123
+ 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 19 253 8 0 0 0 7 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 194 0 0 0 0 0 0 0 9 0 0 0 0 
+0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 134 135 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 2
+01 236 48 123 3 2 73 4 1 19 253 1 0 0 0 6 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 
+0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 194 19
+4 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 
+2 73 4 1 19 253 32 0 0 0 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 
+11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 96 119 3 2 5 22 2 26 
+201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 
+[Processe 1] iter: 2, iter_begin: 3 Distance: 1
+[Processe 2] iter: 2, iter_begin: 2 Distance: 0
+[Processed 3] iter: 3, iter_begin: 2 Distance: 9
+
+[ERROR] [1641462345.139460241]: Invalid end-of-frame character
+[ERROR] [1641462345.139522284]: Unkown payload type.
+[ERROR] [1641462345.139553992]: Invalid end-of-frame character
+[ERROR] [1641462345.139581159]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[DEBUG] [1641462345.139605118]: 
+[Beginning] iter: 3, iter_begin: 3
+[Processed 3] iter: 3, iter_begin: 3 Distance: 10
+
+[ERROR] [1641462345.158904271]: Invalid end-of-frame character
+[ERROR] [1641462345.158955146]: Out-of-sync with VESC, unknown
+ data leading valid frame. Discarding 1 bytes.
+[ERROR] [1641462345.159057022]: Unkown payload type.
+[ERROR] [1641462345.159102481]: Invalid end-of-frame character
+[ERROR] [1641462345.159129564]: Out-of-sync with VESC, discard
+ing 9 bytes.
+[DEBUG] [1641462345.159170190]: 
+[Beginning] iter: 3, iter_begin: 3
+Buffer Data: 3 2 73 4 1 20 252 149 0 0 0 9 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0
+ 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 122 1
+54 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3
+ 2 73 4 1 20 252 220 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 2
+1 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 73 33 3 2 5 22 2 26
+ 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 19 253
+ 8 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 194 0 0 0 0 0
+ 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 134 135 3 2 5 22 2 26 201 236 48 123 
+3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 19 253 1 0 0 0 6 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0
+ 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 194 194 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 20
+1 236 48 123 3 2 73 4 1 19 253 32 0 0 0 6 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 
+0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 96 119
+ 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2
+ 73 4 1 19 252 252 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 194 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 
+11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 111 52 3 2 5 22 2 26 
+201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 
+[Processe 1] iter: 2, iter_begin: 3 Distance: 1
+[Processe 2] iter: 2, iter_begin: 2 Distance: 0
+[Processed 3] iter: 3, iter_begin: 2 Distance: 9
+
+[ERROR] [1641462345.159219774]: Invalid end-of-frame character
+[ERROR] [1641462345.159267649]: Unkown payload type.
+[ERROR] [1641462345.159308858]: Invalid end-of-frame character
+[ERROR] [1641462345.159331400]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[DEBUG] [1641462345.159353900]: 
+[Beginning] iter: 3, iter_begin: 3
+[Processed 3] iter: 3, iter_begin: 3 Distance: 10
+
+[set_vesc_driver_log_level-3] process has finished cleanly
+log file: /home/gisen/.ros/log/6a635532-6ed5-11ec-a481-e470b81
+04ebf/set_vesc_driver_log_level-3*.log
+[ERROR] [1641462345.179006431]: Invalid end-of-frame character
+[ERROR] [1641462345.179049932]: Out-of-sync with VESC, unknown
+ data leading valid frame. Discarding 1 bytes.
+[ERROR] [1641462345.179184600]: Unkown payload type.
+[ERROR] [1641462345.179233225]: Invalid end-of-frame character
+[ERROR] [1641462345.179307934]: Out-of-sync with VESC, discard
+ing 9 bytes.
+[DEBUG] [1641462345.179368393]: 
+[Beginning] iter: 3, iter_begin: 3
+Buffer Data: 3 2 73 4 1 20 252 220 0 0 0 7 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0
+ 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 73 33
+ 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2
+ 73 4 1 19 253 8 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 194 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11
+ 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 134 135 3 2 5 22 2 26 2
+01 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 19 253 1
+ 0 0 0 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 193 0 0 0 0 0 0
+ 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 194 194 3 2 5 22 2 26 201 236 48 123 3 
+2 5 22 2 26 201 236 48 123 3 2 73 4 1 19 253 32 0 0 0 6 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 
+0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 96 119 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 
+236 48 123 3 2 73 4 1 19 252 252 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 194 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0
+ 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 111 52 
+3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 
+73 4 1 20 252 175 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 194 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 1
+1 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 179 205 3 2 5 22 2 26 
+201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 
+[Processe 1] iter: 2, iter_begin: 3 Distance: 1
+[Processe 2] iter: 2, iter_begin: 2 Distance: 0
+[Processed 3] iter: 3, iter_begin: 2 Distance: 9
+
+[ERROR] [1641462345.179449561]: Invalid end-of-frame character
+[ERROR] [1641462345.179476894]: Unkown payload type.
+[ERROR] [1641462345.179499603]: Invalid end-of-frame character
+[ERROR] [1641462345.179522270]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[DEBUG] [1641462345.179544937]: 
+[Beginning] iter: 3, iter_begin: 3
+[Processed 3] iter: 3, iter_begin: 3 Distance: 10
+
+[ERROR] [1641462345.199008508]: Invalid end-of-frame character
+[ERROR] [1641462345.199062842]: Out-of-sync with VESC, unknown
+ data leading valid frame. Discarding 1 bytes.
+[ERROR] [1641462345.199220843]: Unkown payload type.
+[ERROR] [1641462345.199271677]: Invalid end-of-frame character
+[ERROR] [1641462345.199298802]: Out-of-sync with VESC, discard
+ing 9 bytes.
+[DEBUG] [1641462345.199392553]: 
+[Beginning] iter: 3, iter_begin: 3
+Buffer Data: 3 2 73 4 1 19 253 8 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 194 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0
+ 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 134 135
+ 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2
+ 73 4 1 19 253 1 0 0 0 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11
+ 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 194 194 3 2 5 22 2 26 2
+01 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 19 253 3
+2 0 0 0 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 193 0 0 0 0 0 
+0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 96 119 3 2 5 22 2 26 201 236 48 123 3 
+2 5 22 2 26 201 236 48 123 3 2 73 4 1 19 252 252 0 0 0 7 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 194 0 0 0 0 0 0 0 9 0 0 0 0 0
+ 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 111 52 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201
+ 236 48 123 3 2 73 4 1 20 252 175 0 0 0 7 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 194 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 
+0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 179 20
+5 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 
+2 73 4 1 20 252 124 0 0 0 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21
+ 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 201 237 3 2 5 22 2 2
+6 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 
+[Processe 1] iter: 2, iter_begin: 3 Distance: 1
+[Processe 2] iter: 2, iter_begin: 2 Distance: 0
+[Processed 3] iter: 3, iter_begin: 2 Distance: 9
+
+[ERROR] [1641462345.199491429]: Invalid end-of-frame character
+[ERROR] [1641462345.199523138]: Unkown payload type.
+[ERROR] [1641462345.199545722]: Invalid end-of-frame character
+[ERROR] [1641462345.199572847]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[DEBUG] [1641462345.199595472]: 
+[Beginning] iter: 3, iter_begin: 3
+[Processed 3] iter: 3, iter_begin: 3 Distance: 10
+
+[ERROR] [1641462345.218935042]: Invalid end-of-frame character
+[ERROR] [1641462345.219006584]: Out-of-sync with VESC, unknown
+ data leading valid frame. Discarding 1 bytes.
+[ERROR] [1641462345.219175544]: Unkown payload type.
+[ERROR] [1641462345.219249670]: Invalid end-of-frame character
+[ERROR] [1641462345.219276837]: Out-of-sync with VESC, discard
+ing 9 bytes.
+[DEBUG] [1641462345.219317546]: 
+[Beginning] iter: 3, iter_begin: 3
+Buffer Data: 3 2 73 4 1 19 253 1 0 0 0 6 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0
+ 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 194 194
+ 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2
+ 73 4 1 19 253 32 0 0 0 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 1
+1 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 96 119 3 2 5 22 2 26 2
+01 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 19 252 2
+52 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 194 0 0 0 0 0
+ 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 111 52 3 2 5 22 2 26 201 236 48 123 3
+ 2 5 22 2 26 201 236 48 123 3 2 73 4 1 20 252 175 0 0 0 7 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 194 0 0 0 0 0 0 0 9 0 0 0 0 
+0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 179 205 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 2
+01 236 48 123 3 2 73 4 1 20 252 124 0 0 0 6 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 
+0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 201 
+237 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 
+3 2 73 4 1 19 252 248 0 0 0 9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 194 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 
+21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9 1 3 2 5 22 2 26 
+201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 
+[Processe 1] iter: 2, iter_begin: 3 Distance: 1
+[Processe 2] iter: 2, iter_begin: 2 Distance: 0
+[Processed 3] iter: 3, iter_begin: 2 Distance: 9
+
+[ERROR] [1641462345.219376296]: Invalid end-of-frame character
+[ERROR] [1641462345.219398838]: Unkown payload type.
+[ERROR] [1641462345.219421422]: Invalid end-of-frame character
+[ERROR] [1641462345.219443964]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[DEBUG] [1641462345.219466464]: 
+[Beginning] iter: 3, iter_begin: 3
+[Processed 3] iter: 3, iter_begin: 3 Distance: 10
+
+[ERROR] [1641462345.238932743]: Invalid end-of-frame character
+[ERROR] [1641462345.239032286]: Out-of-sync with VESC, unknown
+ data leading valid frame. Discarding 1 bytes.
+[ERROR] [1641462345.239186537]: Unkown payload type.
+[ERROR] [1641462345.239241663]: Invalid end-of-frame character
+[ERROR] [1641462345.239326747]: Out-of-sync with VESC, discard
+ing 9 bytes.
+[DEBUG] [1641462345.239372123]: 
+[Beginning] iter: 3, iter_begin: 3
+Buffer Data: 3 2 73 4 1 19 253 32 0 0 0 6 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 
+0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 96 119
+ 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2
+ 73 4 1 19 252 252 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 194 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 
+11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 111 52 3 2 5 22 2 26 
+201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 20 252 
+175 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 194 0 0 0 0 
+0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 179 205 3 2 5 22 2 26 201 236 48 123
+ 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 20 252 124 0 0 0 6 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 
+0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 201 237 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26
+ 201 236 48 123 3 2 73 4 1 19 252 248 0 0 0 9 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 194 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 
+0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9 
+1 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 
+2 73 4 1 20 252 199 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 194 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21
+ 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 212 179 3 2 5 22 2 2
+6 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 
+[Processe 1] iter: 2, iter_begin: 3 Distance: 1
+[Processe 2] iter: 2, iter_begin: 2 Distance: 0
+[Processed 3] iter: 3, iter_begin: 2 Distance: 9
+
+[ERROR] [1641462345.239430957]: Invalid end-of-frame character
+[ERROR] [1641462345.239514332]: Unkown payload type.
+[ERROR] [1641462345.239532416]: Invalid end-of-frame character
+[ERROR] [1641462345.239555083]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[DEBUG] [1641462345.239577666]: 
+[Beginning] iter: 3, iter_begin: 3
+[Processed 3] iter: 3, iter_begin: 3 Distance: 10
+
+[ERROR] [1641462345.258921986]: Invalid end-of-frame character
+[ERROR] [1641462345.258995070]: Out-of-sync with VESC, unknown
+ data leading valid frame. Discarding 1 bytes.
+[ERROR] [1641462345.259136155]: Unkown payload type.
+[ERROR] [1641462345.259172280]: Invalid end-of-frame character
+[ERROR] [1641462345.259288532]: Out-of-sync with VESC, discard
+ing 9 bytes.
+[DEBUG] [1641462345.259367657]: 
+[Beginning] iter: 3, iter_begin: 3
+Buffer Data: 3 2 73 4 1 19 252 252 0 0 0 7 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 194 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0
+ 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 111 5
+2 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 
+2 73 4 1 20 252 175 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 194 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21
+ 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 179 205 3 2 5 22 2 2
+6 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 20 25
+2 124 0 0 0 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 193 0 0 0 
+0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 201 237 3 2 5 22 2 26 201 236 48 1
+23 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 19 252 248 0 0 0 9 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 194 0 0 0 0 0 0 0 9 0 0 
+0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 9 1 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 2
+01 236 48 123 3 2 73 4 1 20 252 199 0 0 0 7 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 194 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 
+0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 212 
+179 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 
+3 2 73 4 1 19 252 190 0 0 0 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 
+21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 46 136 3 2 5 22 2 
+26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 
+[Processe 1] iter: 2, iter_begin: 3 Distance: 1
+[Processe 2] iter: 2, iter_begin: 2 Distance: 0
+[Processed 3] iter: 3, iter_begin: 2 Distance: 9
+
+[ERROR] [1641462345.259500117]: Invalid end-of-frame character
+[ERROR] [1641462345.259545576]: Unkown payload type.
+[ERROR] [1641462345.259563743]: Invalid end-of-frame character
+[ERROR] [1641462345.259586451]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[DEBUG] [1641462345.259609118]: 
+[Beginning] iter: 3, iter_begin: 3
+[Processed 3] iter: 3, iter_begin: 3 Distance: 10
+
+[ERROR] [1641462345.279181732]: Invalid end-of-frame character
+[ERROR] [1641462345.279259566]: Out-of-sync with VESC, unknown
+ data leading valid frame. Discarding 1 bytes.
+[ERROR] [1641462345.279352150]: Unkown payload type.
+[ERROR] [1641462345.279452568]: Invalid end-of-frame character
+[ERROR] [1641462345.279527319]: Out-of-sync with VESC, discard
+ing 9 bytes.
+[DEBUG] [1641462345.279615111]: 
+[Beginning] iter: 3, iter_begin: 3
+Buffer Data: 3 2 73 4 1 20 252 175 0 0 0 7 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 194 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0
+ 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 179 2
+05 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3
+ 2 73 4 1 20 252 124 0 0 0 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 2
+1 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 201 237 3 2 5 22 2 
+26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 19 2
+52 248 0 0 0 9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 194 0 0 0
+ 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9 1 3 2 5 22 2 26 201 236 48 123 
+3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 20 252 199 0 0 0 7 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 194 0 0 0 0 0 0 0 9 0 0 0 0
+ 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 212 179 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 
+201 236 48 123 3 2 73 4 1 19 252 190 0 0 0 6 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0
+ 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 46 
+136 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 
+3 2 73 4 1 19 251 180 0 0 0 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 
+21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 134 66 3 2 5 22 2 
+26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 
+[Processe 1] iter: 2, iter_begin: 3 Distance: 1
+[Processe 2] iter: 2, iter_begin: 2 Distance: 0
+[Processed 3] iter: 3, iter_begin: 2 Distance: 9
+
+[ERROR] [1641462345.279664945]: Invalid end-of-frame character
+[ERROR] [1641462345.279687570]: Unkown payload type.
+[ERROR] [1641462345.279766280]: Invalid end-of-frame character
+[ERROR] [1641462345.279788905]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[DEBUG] [1641462345.279811530]: 
+[Beginning] iter: 3, iter_begin: 3
+[Processed 3] iter: 3, iter_begin: 3 Distance: 10
+
+[ERROR] [1641462345.298900472]: Invalid end-of-frame character
+[ERROR] [1641462345.298986640]: Out-of-sync with VESC, unknown
+ data leading valid frame. Discarding 1 bytes.
+[ERROR] [1641462345.299161475]: Unkown payload type.
+[ERROR] [1641462345.299212934]: Invalid end-of-frame character
+[ERROR] [1641462345.299235517]: Out-of-sync with VESC, discard
+ing 9 bytes.
+[DEBUG] [1641462345.299328435]: 
+[Beginning] iter: 3, iter_begin: 3
+Buffer Data: 3 2 73 4 1 20 252 124 0 0 0 6 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0
+ 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 201 2
+37 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3
+ 2 73 4 1 19 252 248 0 0 0 9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 194 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 2
+1 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9 1 3 2 5 22 2 26 2
+01 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 20 252 1
+99 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 194 0 0 0 0 0
+ 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 212 179 3 2 5 22 2 26 201 236 48 123 
+3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 19 252 190 0 0 0 6 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0
+ 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 46 136 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 2
+01 236 48 123 3 2 73 4 1 19 251 180 0 0 0 6 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 
+0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 134 
+66 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3
+ 2 73 4 1 19 252 179 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 194 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 2
+1 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 250 136 3 2 5 22 2 
+26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 
+[Processe 1] iter: 2, iter_begin: 3 Distance: 1
+[Processe 2] iter: 2, iter_begin: 2 Distance: 0
+[Processed 3] iter: 3, iter_begin: 2 Distance: 9
+
+[ERROR] [1641462345.299382560]: Invalid end-of-frame character
+[ERROR] [1641462345.299405102]: Unkown payload type.
+[ERROR] [1641462345.299432144]: Invalid end-of-frame character
+[ERROR] [1641462345.299450144]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[DEBUG] [1641462345.299472645]: 
+[Beginning] iter: 3, iter_begin: 3
+[Processed 3] iter: 3, iter_begin: 3 Distance: 10
+
+[ERROR] [1641462345.318940007]: Invalid end-of-frame character
+[ERROR] [1641462345.319060217]: Out-of-sync with VESC, unknown
+ data leading valid frame. Discarding 1 bytes.
+[ERROR] [1641462345.319142259]: Unkown payload type.
+[ERROR] [1641462345.319192635]: Invalid end-of-frame character
+[ERROR] [1641462345.319215260]: Out-of-sync with VESC, discard
+ing 9 bytes.
+[DEBUG] [1641462345.319246969]: 
+[Beginning] iter: 3, iter_begin: 3
+Buffer Data: 3 2 73 4 1 19 252 248 0 0 0 9 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 194 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0
+ 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 9 1 3
+ 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 7
+3 4 1 20 252 199 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 194 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11
+ 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 212 179 3 2 5 22 2 26 2
+01 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 19 252 1
+90 0 0 0 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 193 0 0 0 0 0
+ 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 46 136 3 2 5 22 2 26 201 236 48 123 3
+ 2 5 22 2 26 201 236 48 123 3 2 73 4 1 19 251 180 0 0 0 6 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 
+0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 134 66 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 20
+1 236 48 123 3 2 73 4 1 19 252 179 0 0 0 7 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 194 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0
+ 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 250 1
+36 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3
+ 2 73 4 1 20 252 163 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 191 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 2
+1 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 172 129 3 2 5 22 2 
+26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 
+[Processe 1] iter: 2, iter_begin: 3 Distance: 1
+[Processe 2] iter: 2, iter_begin: 2 Distance: 0
+[Processed 3] iter: 3, iter_begin: 2 Distance: 9
+
+[ERROR] [1641462345.319301261]: Invalid end-of-frame character
+[ERROR] [1641462345.319323845]: Unkown payload type.
+[ERROR] [1641462345.319341928]: Invalid end-of-frame character
+[ERROR] [1641462345.319364512]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[DEBUG] [1641462345.319382554]: 
+[Beginning] iter: 3, iter_begin: 3
+[Processed 3] iter: 3, iter_begin: 3 Distance: 10
+
+[ERROR] [1641462345.339033043]: Invalid end-of-frame character
+[ERROR] [1641462345.339124336]: Out-of-sync with VESC, unknown
+ data leading valid frame. Discarding 1 bytes.
+[ERROR] [1641462345.339253504]: Unkown payload type.
+[ERROR] [1641462345.339285171]: Invalid end-of-frame character
+[ERROR] [1641462345.339307796]: Out-of-sync with VESC, discard
+ing 9 bytes.
+[DEBUG] [1641462345.339357546]: 
+[Beginning] iter: 3, iter_begin: 3
+Buffer Data: 3 2 73 4 1 20 252 199 0 0 0 7 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 194 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0
+ 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 212 1
+79 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3
+ 2 73 4 1 19 252 190 0 0 0 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 2
+1 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 46 136 3 2 5 22 2 2
+6 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 19 25
+1 180 0 0 0 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 193 0 0 0 
+0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 134 66 3 2 5 22 2 26 201 236 48 12
+3 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 19 252 179 0 0 0 7 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 194 0 0 0 0 0 0 0 9 0 0 0
+ 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 250 136 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 2
+6 201 236 48 123 3 2 73 4 1 20 252 163 0 0 0 7 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 191 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0
+ 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1
+72 129 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 1
+23 3 2 73 4 1 20 252 74 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 
+0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 66 211 3 2 5 22 
+2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 
+[Processe 1] iter: 2, iter_begin: 3 Distance: 1
+[Processe 2] iter: 2, iter_begin: 2 Distance: 0
+[Processed 3] iter: 3, iter_begin: 2 Distance: 9
+
+[ERROR] [1641462345.339407214]: Invalid end-of-frame character
+[ERROR] [1641462345.339429755]: Unkown payload type.
+[ERROR] [1641462345.339465839]: Invalid end-of-frame character
+[ERROR] [1641462345.339492881]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[DEBUG] [1641462345.339522048]: 
+[Beginning] iter: 3, iter_begin: 3
+[Processed 3] iter: 3, iter_begin: 3 Distance: 10
+
+[ERROR] [1641462345.358992536]: Invalid end-of-frame character
+[ERROR] [1641462345.359065453]: Out-of-sync with VESC, unknown
+ data leading valid frame. Discarding 1 bytes.
+[ERROR] [1641462345.359161954]: Unkown payload type.
+[ERROR] [1641462345.359180038]: Invalid end-of-frame character
+[ERROR] [1641462345.359198163]: Out-of-sync with VESC, discard
+ing 9 bytes.
+[DEBUG] [1641462345.359252288]: 
+[Beginning] iter: 3, iter_begin: 3
+Buffer Data: 3 2 73 4 1 19 252 190 0 0 0 6 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0
+ 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 46 13
+6 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 
+2 73 4 1 19 251 180 0 0 0 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21
+ 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 134 66 3 2 5 22 2 26
+ 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 19 252
+ 179 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 194 0 0 0 0
+ 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 250 136 3 2 5 22 2 26 201 236 48 12
+3 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 20 252 163 0 0 0 7 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 191 0 0 0 0 0 0 0 9 0 0 0
+ 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 172 129 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 2
+6 201 236 48 123 3 2 73 4 1 20 252 74 0 0 0 7 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 
+0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 66
+ 211 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123
+ 3 2 73 4 1 19 252 213 0 0 0 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 194 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0
+ 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 115 233 3 2 5 22 
+2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 
+[Processe 1] iter: 2, iter_begin: 3 Distance: 1
+[Processe 2] iter: 2, iter_begin: 2 Distance: 0
+[Processed 3] iter: 3, iter_begin: 2 Distance: 9
+
+[ERROR] [1641462345.359293039]: Invalid end-of-frame character
+[ERROR] [1641462345.359367665]: Unkown payload type.
+[ERROR] [1641462345.359390290]: Invalid end-of-frame character
+[ERROR] [1641462345.359461082]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[DEBUG] [1641462345.359483749]: 
+[Beginning] iter: 3, iter_begin: 3
+[Processed 3] iter: 3, iter_begin: 3 Distance: 10
+
+[ERROR] [1641462345.378962237]: Invalid end-of-frame character
+[ERROR] [1641462345.379042279]: Out-of-sync with VESC, unknown
+ data leading valid frame. Discarding 1 bytes.
+[ERROR] [1641462345.379165822]: Unkown payload type.
+[ERROR] [1641462345.379248907]: Invalid end-of-frame character
+[ERROR] [1641462345.379315407]: Out-of-sync with VESC, discard
+ing 9 bytes.
+[DEBUG] [1641462345.379379116]: 
+[Beginning] iter: 3, iter_begin: 3
+Buffer Data: 3 2 73 4 1 19 251 180 0 0 0 6 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0
+ 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 134 6
+6 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 
+2 73 4 1 19 252 179 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 194 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21
+ 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 250 136 3 2 5 22 2 2
+6 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 20 25
+2 163 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 191 0 0 0 
+0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 172 129 3 2 5 22 2 26 201 236 48 1
+23 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 20 252 74 0 0 0 7 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 193 0 0 0 0 0 0 0 9 0 0 0
+ 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 66 211 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26
+ 201 236 48 123 3 2 73 4 1 19 252 213 0 0 0 8 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 194 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 
+0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 11
+5 233 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 12
+3 3 2 73 4 1 19 252 237 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 194 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 
+0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 110 123 3 2 5 22
+ 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 
+[Processe 1] iter: 2, iter_begin: 3 Distance: 1
+[Processe 2] iter: 2, iter_begin: 2 Distance: 0
+[Processed 3] iter: 3, iter_begin: 2 Distance: 9
+
+[ERROR] [1641462345.379471450]: Invalid end-of-frame character
+[ERROR] [1641462345.379498576]: Unkown payload type.
+[ERROR] [1641462345.379549368]: Invalid end-of-frame character
+[ERROR] [1641462345.379580993]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[DEBUG] [1641462345.379607993]: 
+[Beginning] iter: 3, iter_begin: 3
+[Processed 3] iter: 3, iter_begin: 3 Distance: 10
+
+[ERROR] [1641462345.399008147]: Invalid end-of-frame character
+[ERROR] [1641462345.399062648]: Out-of-sync with VESC, unknown
+ data leading valid frame. Discarding 1 bytes.
+[ERROR] [1641462345.399195316]: Unkown payload type.
+[ERROR] [1641462345.399246150]: Invalid end-of-frame character
+[ERROR] [1641462345.399273275]: Out-of-sync with VESC, discard
+ing 9 bytes.
+[DEBUG] [1641462345.399338859]: 
+[Beginning] iter: 3, iter_begin: 3
+Buffer Data: 3 2 73 4 1 19 252 179 0 0 0 7 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 194 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0
+ 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 250 1
+36 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3
+ 2 73 4 1 20 252 163 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 191 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 2
+1 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 172 129 3 2 5 22 2 
+26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 20 2
+52 74 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 193 0 0 0 
+0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 66 211 3 2 5 22 2 26 201 236 48 12
+3 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 19 252 213 0 0 0 8 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 194 0 0 0 0 0 0 0 9 0 0 0
+ 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 115 233 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 2
+6 201 236 48 123 3 2 73 4 1 19 252 237 0 0 0 7 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 194 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0
+ 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1
+10 123 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 1
+23 3 2 73 4 1 19 253 10 0 0 0 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 192 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 
+0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 134 97 3 2 5 22 
+2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 
+[Processe 1] iter: 2, iter_begin: 3 Distance: 1
+[Processe 2] iter: 2, iter_begin: 2 Distance: 0
+[Processed 3] iter: 3, iter_begin: 2 Distance: 9
+
+[ERROR] [1641462345.399421110]: Invalid end-of-frame character
+[ERROR] [1641462345.399443777]: Unkown payload type.
+[ERROR] [1641462345.399470944]: Invalid end-of-frame character
+[ERROR] [1641462345.399498110]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[DEBUG] [1641462345.399525236]: 
+[Beginning] iter: 3, iter_begin: 3
+[Processed 3] iter: 3, iter_begin: 3 Distance: 10
+
+[ERROR] [1641462345.418827847]: Invalid end-of-frame character
+[ERROR] [1641462345.418883139]: Out-of-sync with VESC, unknown
+ data leading valid frame. Discarding 1 bytes.
+[ERROR] [1641462345.419006849]: Unkown payload type.
+[ERROR] [1641462345.419052682]: Invalid end-of-frame character
+[ERROR] [1641462345.419075349]: Out-of-sync with VESC, discard
+ing 9 bytes.
+[DEBUG] [1641462345.419111725]: 
+[Beginning] iter: 3, iter_begin: 3
+Buffer Data: 3 2 73 4 1 20 252 163 0 0 0 7 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 191 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0
+ 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 172 1
+29 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3
+ 2 73 4 1 20 252 74 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21
+ 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 66 211 3 2 5 22 2 26
+ 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 19 252
+ 213 0 0 0 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 194 0 0 0 0
+ 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 115 233 3 2 5 22 2 26 201 236 48 12
+3 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 19 252 237 0 0 0 7 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 194 0 0 0 0 0 0 0 9 0 0 0
+ 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 110 123 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 2
+6 201 236 48 123 3 2 73 4 1 19 253 10 0 0 0 6 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 192 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 
+0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 13
+4 97 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123
+ 3 2 73 4 1 19 252 252 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 192 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0
+ 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 215 83 3 2 5 22 2
+ 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 
+[Processe 1] iter: 2, iter_begin: 3 Distance: 1
+[Processe 2] iter: 2, iter_begin: 2 Distance: 0
+[Processed 3] iter: 3, iter_begin: 2 Distance: 9
+
+[ERROR] [1641462345.419161642]: Invalid end-of-frame character
+[ERROR] [1641462345.419184309]: Unkown payload type.
+[ERROR] [1641462345.419206976]: Invalid end-of-frame character
+[ERROR] [1641462345.419234143]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[DEBUG] [1641462345.419256809]: 
+[Beginning] iter: 3, iter_begin: 3
+[Processed 3] iter: 3, iter_begin: 3 Distance: 10
+
+[ERROR] [1641462345.438855924]: Invalid end-of-frame character
+[ERROR] [1641462345.438918841]: Out-of-sync with VESC, unknown
+ data leading valid frame. Discarding 1 bytes.
+[ERROR] [1641462345.439050592]: Unkown payload type.
+[ERROR] [1641462345.439073176]: Invalid end-of-frame character
+[ERROR] [1641462345.439167802]: Out-of-sync with VESC, discard
+ing 9 bytes.
+[DEBUG] [1641462345.439246552]: 
+[Beginning] iter: 3, iter_begin: 3
+Buffer Data: 3 2 73 4 1 20 252 74 0 0 0 7 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 
+0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 66 211
+ 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2
+ 73 4 1 19 252 213 0 0 0 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 194 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 
+11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 115 233 3 2 5 22 2 26
+ 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 19 252
+ 237 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 194 0 0 0 0
+ 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 110 123 3 2 5 22 2 26 201 236 48 12
+3 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 19 253 10 0 0 0 6 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 192 0 0 0 0 0 0 0 9 0 0 0 
+0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 134 97 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 
+201 236 48 123 3 2 73 4 1 19 252 252 0 0 0 7 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 192 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0
+ 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 215
+ 83 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 
+3 2 73 4 1 20 252 134 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 194 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 
+21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 33 211 3 2 5 22 2 
+26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 
+[Processe 1] iter: 2, iter_begin: 3 Distance: 1
+[Processe 2] iter: 2, iter_begin: 2 Distance: 0
+[Processed 3] iter: 3, iter_begin: 2 Distance: 9
+
+[ERROR] [1641462345.439344012]: Invalid end-of-frame character
+[ERROR] [1641462345.439366637]: Unkown payload type.
+[ERROR] [1641462345.439389262]: Invalid end-of-frame character
+[ERROR] [1641462345.439411887]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[DEBUG] [1641462345.439434471]: 
+[Beginning] iter: 3, iter_begin: 3
+[Processed 3] iter: 3, iter_begin: 3 Distance: 10
+
+[ERROR] [1641462345.458894375]: Invalid end-of-frame character
+[ERROR] [1641462345.458968543]: Out-of-sync with VESC, unknown
+ data leading valid frame. Discarding 1 bytes.
+[ERROR] [1641462345.459101169]: Unkown payload type.
+[ERROR] [1641462345.459142086]: Invalid end-of-frame character
+[ERROR] [1641462345.459155670]: Out-of-sync with VESC, discard
+ing 9 bytes.
+[DEBUG] [1641462345.459178295]: 
+[Beginning] iter: 3, iter_begin: 3
+Buffer Data: 3 2 73 4 1 19 252 213 0 0 0 8 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 194 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0
+ 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 115 2
+33 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3
+ 2 73 4 1 19 252 237 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 194 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 2
+1 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 110 123 3 2 5 22 2 
+26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 19 2
+53 10 0 0 0 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 192 0 0 0 
+0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 134 97 3 2 5 22 2 26 201 236 48 12
+3 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 19 252 252 0 0 0 7 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 192 0 0 0 0 0 0 0 9 0 0 0
+ 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 215 83 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26
+ 201 236 48 123 3 2 73 4 1 20 252 134 0 0 0 7 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 194 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 
+0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 33
+ 211 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123
+ 3 2 73 4 1 20 252 202 0 0 0 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0
+ 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 246 195 3 2 5 22 
+2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 
+[Processe 1] iter: 2, iter_begin: 3 Distance: 1
+[Processe 2] iter: 2, iter_begin: 2 Distance: 0
+[Processed 3] iter: 3, iter_begin: 2 Distance: 9
+
+[ERROR] [1641462345.459228045]: Invalid end-of-frame character
+[ERROR] [1641462345.459255129]: Unkown payload type.
+[ERROR] [1641462345.459277713]: Invalid end-of-frame character
+[ERROR] [1641462345.459309296]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[DEBUG] [1641462345.459331838]: 
+[Beginning] iter: 3, iter_begin: 3
+[Processed 3] iter: 3, iter_begin: 3 Distance: 10
+
+[ERROR] [1641462345.478829659]: Invalid end-of-frame character
+[ERROR] [1641462345.478909577]: Out-of-sync with VESC, unknown
+ data leading valid frame. Discarding 1 bytes.
+[ERROR] [1641462345.479030370]: Unkown payload type.
+[ERROR] [1641462345.479075787]: Invalid end-of-frame character
+[ERROR] [1641462345.479089329]: Out-of-sync with VESC, discard
+ing 9 bytes.
+[DEBUG] [1641462345.479116371]: 
+[Beginning] iter: 3, iter_begin: 3
+Buffer Data: 3 2 73 4 1 19 252 237 0 0 0 7 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 194 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0
+ 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 110 1
+23 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3
+ 2 73 4 1 19 253 10 0 0 0 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 192 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21
+ 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 134 97 3 2 5 22 2 26
+ 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 19 252
+ 252 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 192 0 0 0 0
+ 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 215 83 3 2 5 22 2 26 201 236 48 123
+ 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 20 252 134 0 0 0 7 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 194 0 0 0 0 0 0 0 9 0 0 0 
+0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 33 211 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 
+201 236 48 123 3 2 73 4 1 20 252 202 0 0 0 8 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0
+ 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 246
+ 195 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123
+ 3 2 73 4 1 19 252 199 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 194 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0
+ 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 92 78 3 2 5 22 2 
+26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 
+[Processe 1] iter: 2, iter_begin: 3 Distance: 1
+[Processe 2] iter: 2, iter_begin: 2 Distance: 0
+[Processed 3] iter: 3, iter_begin: 2 Distance: 9
+
+[ERROR] [1641462345.479170413]: Invalid end-of-frame character
+[ERROR] [1641462345.479192913]: Unkown payload type.
+[ERROR] [1641462345.479215372]: Invalid end-of-frame character
+[ERROR] [1641462345.479237872]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[DEBUG] [1641462345.479307789]: 
+[Beginning] iter: 3, iter_begin: 3
+[Processed 3] iter: 3, iter_begin: 3 Distance: 10
+
+[ERROR] [1641462345.498891528]: Invalid end-of-frame character
+[ERROR] [1641462345.498966487]: Out-of-sync with VESC, unknown
+ data leading valid frame. Discarding 1 bytes.
+[ERROR] [1641462345.499078322]: Unkown payload type.
+[ERROR] [1641462345.499123864]: Invalid end-of-frame character
+[ERROR] [1641462345.499137489]: Out-of-sync with VESC, discard
+ing 9 bytes.
+[DEBUG] [1641462345.499160156]: 
+[Beginning] iter: 3, iter_begin: 3
+Buffer Data: 3 2 73 4 1 19 253 10 0 0 0 6 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 192 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 
+0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 134 97
+ 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2
+ 73 4 1 19 252 252 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 192 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 
+11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 215 83 3 2 5 22 2 26 
+201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 20 252 
+134 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 194 0 0 0 0 
+0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 33 211 3 2 5 22 2 26 201 236 48 123 
+3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 20 252 202 0 0 0 8 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0
+ 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 246 195 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 
+201 236 48 123 3 2 73 4 1 19 252 199 0 0 0 7 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 194 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0
+ 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 92 
+78 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3
+ 2 73 4 1 19 253 1 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 
+11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 186 113 3 2 5 22 2 26
+ 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 
+[Processe 1] iter: 2, iter_begin: 3 Distance: 1
+[Processe 2] iter: 2, iter_begin: 2 Distance: 0
+[Processed 3] iter: 3, iter_begin: 2 Distance: 9
+
+[ERROR] [1641462345.499244532]: Invalid end-of-frame character
+[ERROR] [1641462345.499291032]: Unkown payload type.
+[ERROR] [1641462345.499304616]: Invalid end-of-frame character
+[ERROR] [1641462345.499318199]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[DEBUG] [1641462345.499331783]: 
+[Beginning] iter: 3, iter_begin: 3
+[Processed 3] iter: 3, iter_begin: 3 Distance: 10
+
+[ERROR] [1641462345.518926938]: Invalid end-of-frame character
+[ERROR] [1641462345.519044731]: Out-of-sync with VESC, unknown
+ data leading valid frame. Discarding 1 bytes.
+[ERROR] [1641462345.519103565]: Unkown payload type.
+[ERROR] [1641462345.519117149]: Invalid end-of-frame character
+[ERROR] [1641462345.519130732]: Out-of-sync with VESC, discard
+ing 9 bytes.
+[DEBUG] [1641462345.519157857]: 
+[Beginning] iter: 3, iter_begin: 3
+Buffer Data: 3 2 73 4 1 19 252 252 0 0 0 7 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 192 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0
+ 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 215 8
+3 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 
+2 73 4 1 20 252 134 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 194 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21
+ 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 33 211 3 2 5 22 2 26
+ 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 20 252
+ 202 0 0 0 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 193 0 0 0 0
+ 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 246 195 3 2 5 22 2 26 201 236 48 12
+3 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 19 252 199 0 0 0 7 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 194 0 0 0 0 0 0 0 9 0 0 0
+ 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 92 78 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 
+201 236 48 123 3 2 73 4 1 19 253 1 0 0 0 7 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0
+ 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 186 1
+13 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3
+ 2 73 4 1 19 252 240 0 0 0 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 2
+1 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 45 93 3 2 5 22 2 26
+ 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 
+[Processe 1] iter: 2, iter_begin: 3 Distance: 1
+[Processe 2] iter: 2, iter_begin: 2 Distance: 0
+[Processed 3] iter: 3, iter_begin: 2 Distance: 9
+
+[ERROR] [1641462345.519207524]: Invalid end-of-frame character
+[ERROR] [1641462345.519230108]: Unkown payload type.
+[ERROR] [1641462345.519252650]: Invalid end-of-frame character
+[ERROR] [1641462345.519275192]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[DEBUG] [1641462345.519297734]: 
+[Beginning] iter: 3, iter_begin: 3
+[Processed 3] iter: 3, iter_begin: 3 Distance: 10
+
+[ERROR] [1641462345.539000807]: Invalid end-of-frame character
+[ERROR] [1641462345.539082308]: Out-of-sync with VESC, unknown
+ data leading valid frame. Discarding 1 bytes.
+[ERROR] [1641462345.539236393]: Unkown payload type.
+[ERROR] [1641462345.539282685]: Invalid end-of-frame character
+[ERROR] [1641462345.539305352]: Out-of-sync with VESC, discard
+ing 9 bytes.
+[DEBUG] [1641462345.539332561]: 
+[Beginning] iter: 3, iter_begin: 3
+Buffer Data: 3 2 73 4 1 20 252 134 0 0 0 7 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 194 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0
+ 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 33 21
+1 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 
+2 73 4 1 20 252 202 0 0 0 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21
+ 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 246 195 3 2 5 22 2 2
+6 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 19 25
+2 199 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 194 0 0 0 
+0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 92 78 3 2 5 22 2 26 201 236 48 123
+ 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 19 253 1 0 0 0 7 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 
+0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 186 113 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 2
+01 236 48 123 3 2 73 4 1 19 252 240 0 0 0 8 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 
+0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 45 9
+3 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 
+2 73 4 1 19 253 4 0 0 0 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 194 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 1
+1 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 94 218 3 2 5 22 2 26 2
+01 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 
+[Processe 1] iter: 2, iter_begin: 3 Distance: 1
+[Processe 2] iter: 2, iter_begin: 2 Distance: 0
+[Processed 3] iter: 3, iter_begin: 2 Distance: 9
+
+[ERROR] [1641462345.539421145]: Invalid end-of-frame character
+[ERROR] [1641462345.539443812]: Unkown payload type.
+[ERROR] [1641462345.539466479]: Invalid end-of-frame character
+[ERROR] [1641462345.539489104]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[DEBUG] [1641462345.539511729]: 
+[Beginning] iter: 3, iter_begin: 3
+[Processed 3] iter: 3, iter_begin: 3 Distance: 10
+
+[ERROR] [1641462345.558958425]: Invalid end-of-frame character
+[ERROR] [1641462345.559012717]: Out-of-sync with VESC, unknown
+ data leading valid frame. Discarding 1 bytes.
+[ERROR] [1641462345.559110218]: Unkown payload type.
+[ERROR] [1641462345.559132718]: Invalid end-of-frame character
+[ERROR] [1641462345.559182719]: Out-of-sync with VESC, discard
+ing 9 bytes.
+[DEBUG] [1641462345.559223219]: 
+[Beginning] iter: 3, iter_begin: 3
+Buffer Data: 3 2 73 4 1 20 252 202 0 0 0 8 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0
+ 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 246 1
+95 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3
+ 2 73 4 1 19 252 199 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 194 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 2
+1 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 92 78 3 2 5 22 2 26
+ 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 19 253
+ 1 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 193 0 0 0 0 0
+ 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 186 113 3 2 5 22 2 26 201 236 48 123 
+3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 19 252 240 0 0 0 8 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0
+ 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 45 93 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 20
+1 236 48 123 3 2 73 4 1 19 253 4 0 0 0 6 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 194 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0
+ 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 94 218 
+3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 
+73 4 1 19 252 226 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 1
+1 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 250 3 2 5 22 2 26 20
+1 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 
+[Processe 1] iter: 2, iter_begin: 3 Distance: 1
+[Processe 2] iter: 2, iter_begin: 2 Distance: 0
+[Processed 3] iter: 3, iter_begin: 2 Distance: 9
+
+[ERROR] [1641462345.559272720]: Invalid end-of-frame character
+[ERROR] [1641462345.559299762]: Unkown payload type.
+[ERROR] [1641462345.559346929]: Invalid end-of-frame character
+[ERROR] [1641462345.559401596]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[DEBUG] [1641462345.559424138]: 
+[Beginning] iter: 3, iter_begin: 3
+[Processed 3] iter: 3, iter_begin: 3 Distance: 10
+
+[ERROR] [1641462345.578992627]: Invalid end-of-frame character
+[ERROR] [1641462345.579043877]: Out-of-sync with VESC, unknown
+ data leading valid frame. Discarding 1 bytes.
+[ERROR] [1641462345.579167337]: Unkown payload type.
+[ERROR] [1641462345.579216837]: Invalid end-of-frame character
+[ERROR] [1641462345.579239504]: Out-of-sync with VESC, discard
+ing 9 bytes.
+[DEBUG] [1641462345.579304921]: 
+[Beginning] iter: 3, iter_begin: 3
+Buffer Data: 3 2 73 4 1 19 252 199 0 0 0 7 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 194 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0
+ 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 92 78
+ 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2
+ 73 4 1 19 253 1 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11
+ 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 186 113 3 2 5 22 2 26 2
+01 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 19 252 2
+40 0 0 0 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 193 0 0 0 0 0
+ 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 45 93 3 2 5 22 2 26 201 236 48 123 3 
+2 5 22 2 26 201 236 48 123 3 2 73 4 1 19 253 4 0 0 0 6 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 194 0 0 0 0 0 0 0 9 0 0 0 0 0 0
+ 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 94 218 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 2
+36 48 123 3 2 73 4 1 19 252 226 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 
+0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 250 3 
+2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73
+ 4 1 19 252 227 0 0 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+194 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 
+227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 193 3 2 5 22 2 26 20
+1 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 
+[Processe 1] iter: 2, iter_begin: 3 Distance: 1
+[Processe 2] iter: 2, iter_begin: 2 Distance: 0
+[Processed 3] iter: 3, iter_begin: 2 Distance: 9
+
+[ERROR] [1641462345.579407214]: Invalid end-of-frame character
+[ERROR] [1641462345.579457590]: Unkown payload type.
+[ERROR] [1641462345.579484757]: Invalid end-of-frame character
+[ERROR] [1641462345.579511965]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[DEBUG] [1641462345.579534590]: 
+[Beginning] iter: 3, iter_begin: 3
+[Processed 3] iter: 3, iter_begin: 3 Distance: 10
+
+[ERROR] [1641462345.598834701]: Invalid end-of-frame character
+[ERROR] [1641462345.598897535]: Out-of-sync with VESC, unknown
+ data leading valid frame. Discarding 1 bytes.
+[ERROR] [1641462345.598986536]: Unkown payload type.
+[ERROR] [1641462345.599013662]: Invalid end-of-frame character
+[ERROR] [1641462345.599040745]: Out-of-sync with VESC, discard
+ing 9 bytes.
+[DEBUG] [1641462345.599076829]: 
+[Beginning] iter: 3, iter_begin: 3
+Buffer Data: 3 2 73 4 1 19 253 1 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0
+ 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 186 113
+ 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2
+ 73 4 1 19 252 240 0 0 0 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 
+11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 45 93 3 2 5 22 2 26 2
+01 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 19 253 4
+ 0 0 0 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 194 0 0 0 0 0 0
+ 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 94 218 3 2 5 22 2 26 201 236 48 123 3 2
+ 5 22 2 26 201 236 48 123 3 2 73 4 1 19 252 226 0 0 0 7 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 
+0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 2 250 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 2
+36 48 123 3 2 73 4 1 19 252 227 0 0 0 5 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 194 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 
+0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 193 
+3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 
+73 4 1 20 252 195 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 194 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 1
+1 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 68 246 3 2 5 22 2 26 2
+01 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 
+[Processe 1] iter: 2, iter_begin: 3 Distance: 1
+[Processe 2] iter: 2, iter_begin: 2 Distance: 0
+[Processed 3] iter: 3, iter_begin: 2 Distance: 9
+
+[ERROR] [1641462345.599452166]: Invalid end-of-frame character
+[ERROR] [1641462345.599502583]: Unkown payload type.
+[ERROR] [1641462345.599520583]: Invalid end-of-frame character
+[ERROR] [1641462345.599543125]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[DEBUG] [1641462345.599565626]: 
+[Beginning] iter: 3, iter_begin: 3
+[Processed 3] iter: 3, iter_begin: 3 Distance: 10
+
+[ERROR] [1641462345.618828111]: Invalid end-of-frame character
+[ERROR] [1641462345.618915529]: Out-of-sync with VESC, unknown
+ data leading valid frame. Discarding 1 bytes.
+[ERROR] [1641462345.619027738]: Unkown payload type.
+[ERROR] [1641462345.619041322]: Invalid end-of-frame character
+[ERROR] [1641462345.619082405]: Out-of-sync with VESC, discard
+ing 9 bytes.
+[DEBUG] [1641462345.619105072]: 
+[Beginning] iter: 3, iter_begin: 3
+Buffer Data: 3 2 73 4 1 19 252 240 0 0 0 8 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0
+ 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 45 93
+ 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2
+ 73 4 1 19 253 4 0 0 0 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 194 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11
+ 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 94 218 3 2 5 22 2 26 20
+1 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 19 252 22
+6 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 193 0 0 0 0 0 
+0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 2 250 3 2 5 22 2 26 201 236 48 123 3 2
+ 5 22 2 26 201 236 48 123 3 2 73 4 1 19 252 227 0 0 0 5 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 194 0 0 0 0 0 0 0 9 0 0 0 0 0 
+0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 255 193 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201
+ 236 48 123 3 2 73 4 1 20 252 195 0 0 0 7 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 194 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 
+0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 68 246
+ 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2
+ 73 4 1 19 252 150 0 0 0 9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 
+11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 82 76 3 2 5 22 2 26 2
+01 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 
+[Processe 1] iter: 2, iter_begin: 3 Distance: 1
+[Processe 2] iter: 2, iter_begin: 2 Distance: 0
+[Processed 3] iter: 3, iter_begin: 2 Distance: 9
+
+[ERROR] [1641462345.619203407]: Invalid end-of-frame character
+[ERROR] [1641462345.619230657]: Unkown payload type.
+[ERROR] [1641462345.619253324]: Invalid end-of-frame character
+[ERROR] [1641462345.619275991]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[DEBUG] [1641462345.619303158]: 
+[Beginning] iter: 3, iter_begin: 3
+[Processed 3] iter: 3, iter_begin: 3 Distance: 10
+
+[ERROR] [1641462345.638937272]: Invalid end-of-frame character
+[ERROR] [1641462345.639016773]: Out-of-sync with VESC, unknown
+ data leading valid frame. Discarding 1 bytes.
+[ERROR] [1641462345.639116816]: Unkown payload type.
+[ERROR] [1641462345.639139399]: Invalid end-of-frame character
+[ERROR] [1641462345.639166524]: Out-of-sync with VESC, discard
+ing 9 bytes.
+[DEBUG] [1641462345.639226317]: 
+[Beginning] iter: 3, iter_begin: 3
+Buffer Data: 3 2 73 4 1 19 253 4 0 0 0 6 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 194 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0
+ 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 94 218 
+3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 
+73 4 1 19 252 226 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 1
+1 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 250 3 2 5 22 2 26 20
+1 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 19 252 22
+7 0 0 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 194 0 0 0 0 0 
+0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 255 193 3 2 5 22 2 26 201 236 48 123 3
+ 2 5 22 2 26 201 236 48 123 3 2 73 4 1 20 252 195 0 0 0 7 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 194 0 0 0 0 0 0 0 9 0 0 0 0 
+0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 68 246 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 20
+1 236 48 123 3 2 73 4 1 19 252 150 0 0 0 9 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0
+ 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 82 76
+ 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2
+ 73 4 1 19 252 227 0 0 0 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 194 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 
+11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128 100 3 2 5 22 2 26
+ 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 
+[Processe 1] iter: 2, iter_begin: 3 Distance: 1
+[Processe 2] iter: 2, iter_begin: 2 Distance: 0
+[Processed 3] iter: 3, iter_begin: 2 Distance: 9
+
+[ERROR] [1641462345.639276067]: Invalid end-of-frame character
+[ERROR] [1641462345.639298651]: Unkown payload type.
+[ERROR] [1641462345.639321234]: Invalid end-of-frame character
+[ERROR] [1641462345.639348318]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[DEBUG] [1641462345.639419360]: 
+[Beginning] iter: 3, iter_begin: 3
+[Processed 3] iter: 3, iter_begin: 3 Distance: 10
+
+[ERROR] [1641462345.658998057]: Invalid end-of-frame character
+[ERROR] [1641462345.659038225]: Out-of-sync with VESC, unknown
+ data leading valid frame. Discarding 1 bytes.
+[ERROR] [1641462345.659125684]: Unkown payload type.
+[ERROR] [1641462345.659148309]: Invalid end-of-frame character
+[ERROR] [1641462345.659175476]: Out-of-sync with VESC, discard
+ing 9 bytes.
+[DEBUG] [1641462345.659236060]: 
+[Beginning] iter: 3, iter_begin: 3
+Buffer Data: 3 2 73 4 1 19 252 226 0 0 0 7 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0
+ 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 250
+ 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2
+ 73 4 1 19 252 227 0 0 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 194 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 
+11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 193 3 2 5 22 2 26
+ 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 20 252
+ 195 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 194 0 0 0 0
+ 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 68 246 3 2 5 22 2 26 201 236 48 123
+ 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 19 252 150 0 0 0 9 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 
+0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 82 76 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 2
+01 236 48 123 3 2 73 4 1 19 252 227 0 0 0 8 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 194 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 
+0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128 
+100 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 
+3 2 73 4 1 19 252 238 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 
+21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 162 20 3 2 5 22 2 
+26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 
+[Processe 1] iter: 2, iter_begin: 3 Distance: 1
+[Processe 2] iter: 2, iter_begin: 2 Distance: 0
+[Processed 3] iter: 3, iter_begin: 2 Distance: 9
+
+[ERROR] [1641462345.659281144]: Invalid end-of-frame character
+[ERROR] [1641462345.659332894]: Unkown payload type.
+[ERROR] [1641462345.659355394]: Invalid end-of-frame character
+[ERROR] [1641462345.659405687]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[DEBUG] [1641462345.659428228]: 
+[Beginning] iter: 3, iter_begin: 3
+[Processed 3] iter: 3, iter_begin: 3 Distance: 10
+
+[ERROR] [1641462345.679098010]: Invalid end-of-frame character
+[ERROR] [1641462345.679150760]: Out-of-sync with VESC, unknown
+ data leading valid frame. Discarding 1 bytes.
+[ERROR] [1641462345.679298554]: Unkown payload type.
+[ERROR] [1641462345.679344512]: Invalid end-of-frame character
+[ERROR] [1641462345.679371596]: Out-of-sync with VESC, discard
+ing 9 bytes.
+[DEBUG] [1641462345.679407680]: 
+[Beginning] iter: 3, iter_begin: 3
+Buffer Data: 3 2 73 4 1 19 252 227 0 0 0 5 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 194 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0
+ 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 255 1
+93 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3
+ 2 73 4 1 20 252 195 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 194 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 2
+1 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 68 246 3 2 5 22 2 2
+6 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 19 25
+2 150 0 0 0 9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 193 0 0 0 
+0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 82 76 3 2 5 22 2 26 201 236 48 123
+ 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 19 252 227 0 0 0 8 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 194 0 0 0 0 0 0 0 9 0 0 0 
+0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 128 100 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26
+ 201 236 48 123 3 2 73 4 1 19 252 238 0 0 0 7 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 
+0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 16
+2 20 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123
+ 3 2 73 4 1 19 252 241 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 195 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0
+ 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 123 224 3 2 5 22 
+2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 
+[Processe 1] iter: 2, iter_begin: 3 Distance: 1
+[Processe 2] iter: 2, iter_begin: 2 Distance: 0
+[Processed 3] iter: 3, iter_begin: 2 Distance: 9
+
+[ERROR] [1641462345.679452763]: Invalid end-of-frame character
+[ERROR] [1641462345.679475264]: Unkown payload type.
+[ERROR] [1641462345.679518389]: Invalid end-of-frame character
+[ERROR] [1641462345.679536431]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[DEBUG] [1641462345.679558931]: 
+[Beginning] iter: 3, iter_begin: 3
+[Processed 3] iter: 3, iter_begin: 3 Distance: 10
+
+[ERROR] [1641462345.698947168]: Invalid end-of-frame character
+[ERROR] [1641462345.699028377]: Out-of-sync with VESC, unknown
+ data leading valid frame. Discarding 1 bytes.
+[ERROR] [1641462345.699150379]: Unkown payload type.
+[ERROR] [1641462345.699205462]: Invalid end-of-frame character
+[ERROR] [1641462345.699228129]: Out-of-sync with VESC, discard
+ing 9 bytes.
+[DEBUG] [1641462345.699308880]: 
+[Beginning] iter: 3, iter_begin: 3
+Buffer Data: 3 2 73 4 1 20 252 195 0 0 0 7 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 194 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0
+ 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 68 24
+6 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 
+2 73 4 1 19 252 150 0 0 0 9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21
+ 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 82 76 3 2 5 22 2 26 
+201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 19 252 
+227 0 0 0 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 194 0 0 0 0 
+0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 128 100 3 2 5 22 2 26 201 236 48 123
+ 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 19 252 238 0 0 0 7 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 
+0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 162 20 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 
+201 236 48 123 3 2 73 4 1 19 252 241 0 0 0 7 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 195 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0
+ 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 123
+ 224 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123
+ 3 2 73 4 1 19 252 237 0 0 0 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 194 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0
+ 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 22 200 3 2 5 22 2
+ 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 
+[Processe 1] iter: 2, iter_begin: 3 Distance: 1
+[Processe 2] iter: 2, iter_begin: 2 Distance: 0
+[Processed 3] iter: 3, iter_begin: 2 Distance: 9
+
+[ERROR] [1641462345.699363297]: Invalid end-of-frame character
+[ERROR] [1641462345.699385964]: Unkown payload type.
+[ERROR] [1641462345.699404089]: Invalid end-of-frame character
+[ERROR] [1641462345.699452090]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[DEBUG] [1641462345.699474673]: 
+[Beginning] iter: 3, iter_begin: 3
+[Processed 3] iter: 3, iter_begin: 3 Distance: 10
+
+[ERROR] [1641462345.719088329]: Invalid end-of-frame character
+[ERROR] [1641462345.719175122]: Out-of-sync with VESC, unknown
+ data leading valid frame. Discarding 1 bytes.
+[ERROR] [1641462345.719355540]: Unkown payload type.
+[ERROR] [1641462345.719446500]: Invalid end-of-frame character
+[ERROR] [1641462345.719497458]: Out-of-sync with VESC, discard
+ing 9 bytes.
+[DEBUG] [1641462345.719577418]: 
+[Beginning] iter: 3, iter_begin: 3
+Buffer Data: 3 2 73 4 1 19 252 150 0 0 0 9 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0
+ 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 82 76
+ 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2
+ 73 4 1 19 252 227 0 0 0 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 194 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 
+11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128 100 3 2 5 22 2 26
+ 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 19 252
+ 238 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 193 0 0 0 0
+ 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 162 20 3 2 5 22 2 26 201 236 48 123
+ 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 19 252 241 0 0 0 7 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 195 0 0 0 0 0 0 0 9 0 0 0 
+0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 123 224 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26
+ 201 236 48 123 3 2 73 4 1 19 252 237 0 0 0 6 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 194 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 
+0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 22
+ 200 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123
+ 3 2 73 4 1 20 252 154 0 0 0 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0
+ 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 244 156 3 2 5 22 
+2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 
+[Processe 1] iter: 2, iter_begin: 3 Distance: 1
+[Processe 2] iter: 2, iter_begin: 2 Distance: 0
+[Processed 3] iter: 3, iter_begin: 2 Distance: 9
+
+[ERROR] [1641462345.719675544]: Invalid end-of-frame character
+[ERROR] [1641462345.719698210]: Unkown payload type.
+[ERROR] [1641462345.719745336]: Invalid end-of-frame character
+[ERROR] [1641462345.719790836]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[DEBUG] [1641462345.719875296]: 
+[Beginning] iter: 3, iter_begin: 3
+[Processed 3] iter: 3, iter_begin: 3 Distance: 10
+
+[ERROR] [1641462345.738872862]: Invalid end-of-frame character
+[ERROR] [1641462345.738918571]: Out-of-sync with VESC, unknown
+ data leading valid frame. Discarding 1 bytes.
+[ERROR] [1641462345.739073906]: Unkown payload type.
+[ERROR] [1641462345.739122948]: Invalid end-of-frame character
+[ERROR] [1641462345.739150073]: Out-of-sync with VESC, discard
+ing 9 bytes.
+[DEBUG] [1641462345.739186323]: 
+[Beginning] iter: 3, iter_begin: 3
+Buffer Data: 3 2 73 4 1 19 252 227 0 0 0 8 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 194 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0
+ 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128 1
+00 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3
+ 2 73 4 1 19 252 238 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 2
+1 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 162 20 3 2 5 22 2 2
+6 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 19 25
+2 241 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 195 0 0 0 
+0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 123 224 3 2 5 22 2 26 201 236 48 1
+23 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 19 252 237 0 0 0 6 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 194 0 0 0 0 0 0 0 9 0 0 
+0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 22 200 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 2
+6 201 236 48 123 3 2 73 4 1 20 252 154 0 0 0 6 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0
+ 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2
+44 156 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 1
+23 3 2 73 4 1 20 252 168 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 194 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0
+ 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 131 163 3 2 5 2
+2 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 
+[Processe 1] iter: 2, iter_begin: 3 Distance: 1
+[Processe 2] iter: 2, iter_begin: 2 Distance: 0
+[Processed 3] iter: 3, iter_begin: 2 Distance: 9
+
+[ERROR] [1641462345.739283283]: Invalid end-of-frame character
+[ERROR] [1641462345.739337200]: Unkown payload type.
+[ERROR] [1641462345.739359867]: Invalid end-of-frame character
+[ERROR] [1641462345.739387075]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[DEBUG] [1641462345.739409742]: 
+[Beginning] iter: 3, iter_begin: 3
+[Processed 3] iter: 3, iter_begin: 3 Distance: 10
+
+[ERROR] [1641462345.759008898]: Invalid end-of-frame character
+[ERROR] [1641462345.759098566]: Out-of-sync with VESC, unknown
+ data leading valid frame. Discarding 1 bytes.
+[ERROR] [1641462345.759200067]: Unkown payload type.
+[ERROR] [1641462345.759255026]: Invalid end-of-frame character
+[ERROR] [1641462345.759277692]: Out-of-sync with VESC, discard
+ing 9 bytes.
+[DEBUG] [1641462345.759323026]: 
+[Beginning] iter: 3, iter_begin: 3
+Buffer Data: 3 2 73 4 1 19 252 238 0 0 0 7 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0
+ 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 162 2
+0 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 
+2 73 4 1 19 252 241 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 195 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21
+ 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 123 224 3 2 5 22 2 2
+6 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 19 25
+2 237 0 0 0 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 194 0 0 0 
+0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 22 200 3 2 5 22 2 26 201 236 48 12
+3 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 20 252 154 0 0 0 6 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 193 0 0 0 0 0 0 0 9 0 0 0
+ 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 244 156 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 2
+6 201 236 48 123 3 2 73 4 1 20 252 168 0 0 0 7 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 194 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0
+ 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1
+31 163 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 1
+23 3 2 73 4 1 19 252 241 0 0 0 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0
+ 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 3 2 5 22 
+2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 
+[Processe 1] iter: 2, iter_begin: 3 Distance: 1
+[Processe 2] iter: 2, iter_begin: 2 Distance: 0
+[Processed 3] iter: 3, iter_begin: 2 Distance: 9
+
+[ERROR] [1641462345.759415861]: Invalid end-of-frame character
+[ERROR] [1641462345.759438527]: Unkown payload type.
+[ERROR] [1641462345.759452111]: Invalid end-of-frame character
+[ERROR] [1641462345.759474736]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[DEBUG] [1641462345.759550737]: 
+[Beginning] iter: 3, iter_begin: 3
+[Processed 3] iter: 3, iter_begin: 3 Distance: 10
+
+[ERROR] [1641462345.778985974]: Invalid end-of-frame character
+[ERROR] [1641462345.779036891]: Out-of-sync with VESC, unknown
+ data leading valid frame. Discarding 1 bytes.
+[ERROR] [1641462345.779186101]: Unkown payload type.
+[ERROR] [1641462345.779240685]: Invalid end-of-frame character
+[ERROR] [1641462345.779272311]: Out-of-sync with VESC, discard
+ing 9 bytes.
+[DEBUG] [1641462345.779312978]: 
+[Beginning] iter: 3, iter_begin: 3
+Buffer Data: 3 2 73 4 1 19 252 241 0 0 0 7 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 195 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0
+ 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 123 2
+24 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3
+ 2 73 4 1 19 252 237 0 0 0 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 194 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 2
+1 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 22 200 3 2 5 22 2 2
+6 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 20 25
+2 154 0 0 0 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 193 0 0 0 
+0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 244 156 3 2 5 22 2 26 201 236 48 1
+23 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 20 252 168 0 0 0 7 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 194 0 0 0 0 0 0 0 9 0 0 
+0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 131 163 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 
+26 201 236 48 123 3 2 73 4 1 19 252 241 0 0 0 8 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 
+0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+77 68 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 12
+3 3 2 73 4 1 19 253 12 0 0 0 9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 195 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0
+ 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 52 145 3 2 5 22 2
+ 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 
+[Processe 1] iter: 2, iter_begin: 3 Distance: 1
+[Processe 2] iter: 2, iter_begin: 2 Distance: 0
+[Processed 3] iter: 3, iter_begin: 2 Distance: 9
+
+[ERROR] [1641462345.779405729]: Invalid end-of-frame character
+[ERROR] [1641462345.779428312]: Unkown payload type.
+[ERROR] [1641462345.779450937]: Invalid end-of-frame character
+[ERROR] [1641462345.779473521]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[DEBUG] [1641462345.779496063]: 
+[Beginning] iter: 3, iter_begin: 3
+[Processed 3] iter: 3, iter_begin: 3 Distance: 10
+
+[ERROR] [1641462345.798799591]: Invalid end-of-frame character
+[ERROR] [1641462345.798855424]: Out-of-sync with VESC, unknown
+ data leading valid frame. Discarding 1 bytes.
+[ERROR] [1641462345.798964426]: Unkown payload type.
+[ERROR] [1641462345.799039468]: Invalid end-of-frame character
+[ERROR] [1641462345.799071218]: Out-of-sync with VESC, discard
+ing 9 bytes.
+[DEBUG] [1641462345.799121052]: 
+[Beginning] iter: 3, iter_begin: 3
+Buffer Data: 3 2 73 4 1 19 252 237 0 0 0 6 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 194 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0
+ 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 22 20
+0 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 
+2 73 4 1 20 252 154 0 0 0 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21
+ 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 244 156 3 2 5 22 2 2
+6 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 20 25
+2 168 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 194 0 0 0 
+0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 131 163 3 2 5 22 2 26 201 236 48 1
+23 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 19 252 241 0 0 0 8 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 193 0 0 0 0 0 0 0 9 0 0 
+0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 77 68 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26
+ 201 236 48 123 3 2 73 4 1 19 253 12 0 0 0 9 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 195 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0
+ 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 52 
+145 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 
+3 2 73 4 1 19 252 236 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 194 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 
+21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14 98 3 2 5 22 2 2
+6 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 
+[Processe 1] iter: 2, iter_begin: 3 Distance: 1
+[Processe 2] iter: 2, iter_begin: 2 Distance: 0
+[Processed 3] iter: 3, iter_begin: 2 Distance: 9
+
+[ERROR] [1641462345.799212803]: Invalid end-of-frame character
+[ERROR] [1641462345.799235428]: Unkown payload type.
+[ERROR] [1641462345.799258095]: Invalid end-of-frame character
+[ERROR] [1641462345.799280720]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[DEBUG] [1641462345.799303304]: 
+[Beginning] iter: 3, iter_begin: 3
+[Processed 3] iter: 3, iter_begin: 3 Distance: 10
+
+[ERROR] [1641462345.818766750]: Invalid end-of-frame character
+[ERROR] [1641462345.818869168]: Out-of-sync with VESC, unknown
+ data leading valid frame. Discarding 1 bytes.
+[ERROR] [1641462345.818973794]: Unkown payload type.
+[ERROR] [1641462345.819024419]: Invalid end-of-frame character
+[ERROR] [1641462345.819051586]: Out-of-sync with VESC, discard
+ing 9 bytes.
+[DEBUG] [1641462345.819087795]: 
+[Beginning] iter: 3, iter_begin: 3
+Buffer Data: 3 2 73 4 1 20 252 154 0 0 0 6 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0
+ 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 244 1
+56 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3
+ 2 73 4 1 20 252 168 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 194 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 2
+1 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 131 163 3 2 5 22 2 
+26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 19 2
+52 241 0 0 0 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 193 0 0 0
+ 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 3 2 5 22 2 26 201 236 48 12
+3 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 19 253 12 0 0 0 9 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 195 0 0 0 0 0 0 0 9 0 0 0 
+0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 52 145 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 
+201 236 48 123 3 2 73 4 1 19 252 236 0 0 0 7 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 194 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0
+ 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14 
+98 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3
+ 2 73 4 1 19 253 20 0 0 0 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 195 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21
+ 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 29 223 3 2 5 22 2 26
+ 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 
+[Processe 1] iter: 2, iter_begin: 3 Distance: 1
+[Processe 2] iter: 2, iter_begin: 2 Distance: 0
+[Processed 3] iter: 3, iter_begin: 2 Distance: 9
+
+[ERROR] [1641462345.819180962]: Invalid end-of-frame character
+[ERROR] [1641462345.819203588]: Unkown payload type.
+[ERROR] [1641462345.819217171]: Invalid end-of-frame character
+[ERROR] [1641462345.819235255]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[DEBUG] [1641462345.819257797]: 
+[Beginning] iter: 3, iter_begin: 3
+[Processed 3] iter: 3, iter_begin: 3 Distance: 10
+
+[ERROR] [1641462345.838902619]: Invalid end-of-frame character
+[ERROR] [1641462345.838986079]: Out-of-sync with VESC, unknown
+ data leading valid frame. Discarding 1 bytes.
+[ERROR] [1641462345.839139705]: Unkown payload type.
+[ERROR] [1641462345.839180122]: Invalid end-of-frame character
+[ERROR] [1641462345.839207289]: Out-of-sync with VESC, discard
+ing 9 bytes.
+[DEBUG] [1641462345.839248123]: 
+[Beginning] iter: 3, iter_begin: 3
+Buffer Data: 3 2 73 4 1 20 252 168 0 0 0 7 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 194 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0
+ 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 131 1
+63 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3
+ 2 73 4 1 19 252 241 0 0 0 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 2
+1 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 3 2 5 22 2 26
+ 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 19 253
+ 12 0 0 0 9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 195 0 0 0 0 
+0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 52 145 3 2 5 22 2 26 201 236 48 123 
+3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 19 252 236 0 0 0 7 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 194 0 0 0 0 0 0 0 9 0 0 0 0
+ 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 14 98 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 20
+1 236 48 123 3 2 73 4 1 19 253 20 0 0 0 8 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 195 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 
+0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 29 223
+ 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2
+ 73 4 1 19 252 241 0 0 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 192 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 
+11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 230 194 3 2 5 22 2 26
+ 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 
+[Processe 1] iter: 2, iter_begin: 3 Distance: 1
+[Processe 2] iter: 2, iter_begin: 2 Distance: 0
+[Processed 3] iter: 3, iter_begin: 2 Distance: 9
+
+[ERROR] [1641462345.839324790]: Invalid end-of-frame character
+[ERROR] [1641462345.839369916]: Unkown payload type.
+[ERROR] [1641462345.839392541]: Invalid end-of-frame character
+[ERROR] [1641462345.839419708]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[DEBUG] [1641462345.839451375]: 
+[Beginning] iter: 3, iter_begin: 3
+[Processed 3] iter: 3, iter_begin: 3 Distance: 10
+
+[ERROR] [1641462345.858892862]: Invalid end-of-frame character
+[ERROR] [1641462345.858955238]: Out-of-sync with VESC, unknown
+ data leading valid frame. Discarding 1 bytes.
+[ERROR] [1641462345.859025197]: Unkown payload type.
+[ERROR] [1641462345.859043322]: Invalid end-of-frame character
+[ERROR] [1641462345.859061447]: Out-of-sync with VESC, discard
+ing 9 bytes.
+[DEBUG] [1641462345.859102198]: 
+[Beginning] iter: 3, iter_begin: 3
+Buffer Data: 3 2 73 4 1 19 252 241 0 0 0 8 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0
+ 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68
+ 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2
+ 73 4 1 19 253 12 0 0 0 9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 195 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 1
+1 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 52 145 3 2 5 22 2 26 2
+01 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 19 252 2
+36 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 194 0 0 0 0 0
+ 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 14 98 3 2 5 22 2 26 201 236 48 123 3 
+2 5 22 2 26 201 236 48 123 3 2 73 4 1 19 253 20 0 0 0 8 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 195 0 0 0 0 0 0 0 9 0 0 0 0 0 
+0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 29 223 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 
+236 48 123 3 2 73 4 1 19 252 241 0 0 0 5 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 192 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0
+ 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 230 194
+ 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2
+ 73 4 1 20 252 203 0 0 0 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 
+11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 96 170 3 2 5 22 2 26 
+201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 
+[Processe 1] iter: 2, iter_begin: 3 Distance: 1
+[Processe 2] iter: 2, iter_begin: 2 Distance: 0
+[Processed 3] iter: 3, iter_begin: 2 Distance: 9
+
+[ERROR] [1641462345.859160948]: Invalid end-of-frame character
+[ERROR] [1641462345.859183532]: Unkown payload type.
+[ERROR] [1641462345.859197074]: Invalid end-of-frame character
+[ERROR] [1641462345.859215116]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[DEBUG] [1641462345.859242199]: 
+[Beginning] iter: 3, iter_begin: 3
+[Processed 3] iter: 3, iter_begin: 3 Distance: 10
+
+[ERROR] [1641462345.879027107]: Invalid end-of-frame character
+[ERROR] [1641462345.879103191]: Out-of-sync with VESC, unknown
+ data leading valid frame. Discarding 1 bytes.
+[ERROR] [1641462345.879202442]: Unkown payload type.
+[ERROR] [1641462345.879248609]: Invalid end-of-frame character
+[ERROR] [1641462345.879262151]: Out-of-sync with VESC, discard
+ing 9 bytes.
+[DEBUG] [1641462345.879293818]: 
+[Beginning] iter: 3, iter_begin: 3
+Buffer Data: 3 2 73 4 1 19 253 12 0 0 0 9 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 195 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 
+0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 52 145
+ 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2
+ 73 4 1 19 252 236 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 194 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 
+11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14 98 3 2 5 22 2 26 2
+01 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 19 253 2
+0 0 0 0 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 195 0 0 0 0 0 
+0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 29 223 3 2 5 22 2 26 201 236 48 123 3 
+2 5 22 2 26 201 236 48 123 3 2 73 4 1 19 252 241 0 0 0 5 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 192 0 0 0 0 0 0 0 9 0 0 0 0 0
+ 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 230 194 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 20
+1 236 48 123 3 2 73 4 1 20 252 203 0 0 0 6 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0
+ 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 96 17
+0 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 
+2 73 4 1 20 252 5 0 0 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 1
+1 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 38 9 3 2 5 22 2 26 201
+ 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 
+[Processe 1] iter: 2, iter_begin: 3 Distance: 1
+[Processe 2] iter: 2, iter_begin: 2 Distance: 0
+[Processed 3] iter: 3, iter_begin: 2 Distance: 9
+
+[ERROR] [1641462345.879404819]: Invalid end-of-frame character
+[ERROR] [1641462345.879470195]: Unkown payload type.
+[ERROR] [1641462345.879492820]: Invalid end-of-frame character
+[ERROR] [1641462345.879563821]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[DEBUG] [1641462345.879590988]: 
+[Beginning] iter: 3, iter_begin: 3
+[Processed 3] iter: 3, iter_begin: 3 Distance: 10
+
+[ERROR] [1641462345.899011267]: Invalid end-of-frame character
+[ERROR] [1641462345.899097767]: Out-of-sync with VESC, unknown
+ data leading valid frame. Discarding 1 bytes.
+[ERROR] [1641462345.899230102]: Unkown payload type.
+[ERROR] [1641462345.899266477]: Invalid end-of-frame character
+[ERROR] [1641462345.899361562]: Out-of-sync with VESC, discard
+ing 9 bytes.
+[DEBUG] [1641462345.899402270]: 
+[Beginning] iter: 3, iter_begin: 3
+Buffer Data: 3 2 73 4 1 19 252 236 0 0 0 7 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 194 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0
+ 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 14 98
+ 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2
+ 73 4 1 19 253 20 0 0 0 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 195 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 1
+1 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 29 223 3 2 5 22 2 26 2
+01 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 19 252 2
+41 0 0 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 192 0 0 0 0 0
+ 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 230 194 3 2 5 22 2 26 201 236 48 123 
+3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 20 252 203 0 0 0 6 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0
+ 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 96 170 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 2
+01 236 48 123 3 2 73 4 1 20 252 5 0 0 0 5 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 
+0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 38 9 3
+ 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 7
+3 4 1 19 252 201 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11
+ 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 80 214 3 2 5 22 2 26 20
+1 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 
+[Processe 1] iter: 2, iter_begin: 3 Distance: 1
+[Processe 2] iter: 2, iter_begin: 2 Distance: 0
+[Processed 3] iter: 3, iter_begin: 2 Distance: 9
+
+[ERROR] [1641462345.899508022]: Invalid end-of-frame character
+[ERROR] [1641462345.899586397]: Unkown payload type.
+[ERROR] [1641462345.899608981]: Invalid end-of-frame character
+[ERROR] [1641462345.899640815]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[DEBUG] [1641462345.899672440]: 
+[Beginning] iter: 3, iter_begin: 3
+[Processed 3] iter: 3, iter_begin: 3 Distance: 10
+
+[ERROR] [1641462345.918885717]: Invalid end-of-frame character
+[ERROR] [1641462345.918947676]: Out-of-sync with VESC, unknown
+ data leading valid frame. Discarding 1 bytes.
+[ERROR] [1641462345.919054968]: Unkown payload type.
+[ERROR] [1641462345.919105719]: Invalid end-of-frame character
+[ERROR] [1641462345.919128344]: Out-of-sync with VESC, discard
+ing 9 bytes.
+[DEBUG] [1641462345.919216095]: 
+[Beginning] iter: 3, iter_begin: 3
+Buffer Data: 3 2 73 4 1 19 253 20 0 0 0 8 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 195 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 
+0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 29 223
+ 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2
+ 73 4 1 19 252 241 0 0 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 192 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 
+11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 230 194 3 2 5 22 2 26
+ 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 20 252
+ 203 0 0 0 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 193 0 0 0 0
+ 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 96 170 3 2 5 22 2 26 201 236 48 123
+ 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 20 252 5 0 0 0 5 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 
+0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 38 9 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 
+236 48 123 3 2 73 4 1 19 252 201 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0
+ 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 80 214 
+3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 
+73 4 1 19 253 6 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+194 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 
+227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 230 91 3 2 5 22 2 26 201
+ 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 
+[Processe 1] iter: 2, iter_begin: 3 Distance: 1
+[Processe 2] iter: 2, iter_begin: 2 Distance: 0
+[Processed 3] iter: 3, iter_begin: 2 Distance: 9
+
+[ERROR] [1641462345.919279512]: Invalid end-of-frame character
+[ERROR] [1641462345.919363138]: Unkown payload type.
+[ERROR] [1641462345.919433681]: Invalid end-of-frame character
+[ERROR] [1641462345.919465348]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[DEBUG] [1641462345.919492473]: 
+[Beginning] iter: 3, iter_begin: 3
+[Processed 3] iter: 3, iter_begin: 3 Distance: 10
+
+[ERROR] [1641462345.938837043]: Invalid end-of-frame character
+[ERROR] [1641462345.938922460]: Out-of-sync with VESC, unknown
+ data leading valid frame. Discarding 1 bytes.
+[ERROR] [1641462345.939032378]: Unkown payload type.
+[ERROR] [1641462345.939099462]: Invalid end-of-frame character
+[ERROR] [1641462345.939126629]: Out-of-sync with VESC, discard
+ing 9 bytes.
+[DEBUG] [1641462345.939189630]: 
+[Beginning] iter: 3, iter_begin: 3
+Buffer Data: 3 2 73 4 1 19 252 241 0 0 0 5 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 192 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0
+ 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 230 1
+94 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3
+ 2 73 4 1 20 252 203 0 0 0 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 2
+1 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 96 170 3 2 5 22 2 2
+6 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 20 25
+2 5 0 0 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 193 0 0 0 0 
+0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 38 9 3 2 5 22 2 26 201 236 48 123 3 
+2 5 22 2 26 201 236 48 123 3 2 73 4 1 19 252 201 0 0 0 7 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0
+ 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 80 214 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201
+ 236 48 123 3 2 73 4 1 19 253 6 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 194 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 
+0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 230 91 3
+ 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 7
+3 4 1 19 253 10 0 0 0 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 
+227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 82 66 3 2 5 22 2 26 201 
+236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 
+[Processe 1] iter: 2, iter_begin: 3 Distance: 1
+[Processe 2] iter: 2, iter_begin: 2 Distance: 0
+[Processed 3] iter: 3, iter_begin: 2 Distance: 9
+
+[ERROR] [1641462345.939252922]: Invalid end-of-frame character
+[ERROR] [1641462345.939275505]: Unkown payload type.
+[ERROR] [1641462345.939302547]: Invalid end-of-frame character
+[ERROR] [1641462345.939338631]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[DEBUG] [1641462345.939365631]: 
+[Beginning] iter: 3, iter_begin: 3
+[Processed 3] iter: 3, iter_begin: 3 Distance: 10
+
+[ERROR] [1641462345.958860453]: Invalid end-of-frame character
+[ERROR] [1641462345.958964954]: Out-of-sync with VESC, unknown
+ data leading valid frame. Discarding 1 bytes.
+[ERROR] [1641462345.959071913]: Unkown payload type.
+[ERROR] [1641462345.959116622]: Invalid end-of-frame character
+[ERROR] [1641462345.959190581]: Out-of-sync with VESC, discard
+ing 9 bytes.
+[DEBUG] [1641462345.959245998]: 
+[Beginning] iter: 3, iter_begin: 3
+Buffer Data: 3 2 73 4 1 20 252 203 0 0 0 6 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0
+ 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 96 17
+0 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 
+2 73 4 1 20 252 5 0 0 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 1
+1 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 38 9 3 2 5 22 2 26 201
+ 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 19 252 201
+ 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 193 0 0 0 0 0 0
+ 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 80 214 3 2 5 22 2 26 201 236 48 123 3 2
+ 5 22 2 26 201 236 48 123 3 2 73 4 1 19 253 6 0 0 0 7 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 194 0 0 0 0 0 0 0 9 0 0 0 0 0 0 
+0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 230 91 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 23
+6 48 123 3 2 73 4 1 19 253 10 0 0 0 6 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 
+0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 82 66 3 2 
+5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 4
+ 1 19 253 13 0 0 0 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 193
+ 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227
+ 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 148 92 3 2 5 22 2 26 201 23
+6 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 
+[Processe 1] iter: 2, iter_begin: 3 Distance: 1
+[Processe 2] iter: 2, iter_begin: 2 Distance: 0
+[Processed 3] iter: 3, iter_begin: 2 Distance: 9
+
+[ERROR] [1641462345.959305040]: Invalid end-of-frame character
+[ERROR] [1641462345.959365833]: Unkown payload type.
+[ERROR] [1641462345.959424667]: Invalid end-of-frame character
+[ERROR] [1641462345.959447292]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[DEBUG] [1641462345.959476250]: 
+[Beginning] iter: 3, iter_begin: 3
+[Processed 3] iter: 3, iter_begin: 3 Distance: 10
+
+[ERROR] [1641462345.978769445]: Invalid end-of-frame character
+[ERROR] [1641462345.978840404]: Out-of-sync with VESC, unknown
+ data leading valid frame. Discarding 1 bytes.
+[ERROR] [1641462345.978984447]: Unkown payload type.
+[ERROR] [1641462345.979005156]: Invalid end-of-frame character
+[ERROR] [1641462345.979032156]: Out-of-sync with VESC, discard
+ing 9 bytes.
+[DEBUG] [1641462345.979080656]: 
+[Beginning] iter: 3, iter_begin: 3
+Buffer Data: 3 2 73 4 1 20 252 5 0 0 0 5 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0
+ 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 38 9 3 
+2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73
+ 4 1 19 252 201 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 
+227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 80 214 3 2 5 22 2 26 201
+ 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 19 253 6 0
+ 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 194 0 0 0 0 0 0 0
+ 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 230 91 3 2 5 22 2 26 201 236 48 123 3 2 5
+ 22 2 26 201 236 48 123 3 2 73 4 1 19 253 10 0 0 0 6 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0
+ 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 82 66 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 
+48 123 3 2 73 4 1 19 253 13 0 0 0 8 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 
+0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 148 92 3 2 5
+ 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 4 
+1 19 253 12 0 0 0 9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 192 
+0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 
+32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 88 213 3 2 5 22 2 26 201 236
+ 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 
+[Processe 1] iter: 2, iter_begin: 3 Distance: 1
+[Processe 2] iter: 2, iter_begin: 2 Distance: 0
+[Processed 3] iter: 3, iter_begin: 2 Distance: 9
+
+[ERROR] [1641462345.979131615]: Invalid end-of-frame character
+[ERROR] [1641462345.979204408]: Unkown payload type.
+[ERROR] [1641462345.979231824]: Invalid end-of-frame character
+[ERROR] [1641462345.979257325]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[DEBUG] [1641462345.979284117]: 
+[Beginning] iter: 3, iter_begin: 3
+[Processed 3] iter: 3, iter_begin: 3 Distance: 10
+
+^C[ERROR] [1641462345.998870272]: Invalid end-of-frame charact
+er
+[ERROR] [1641462345.998924481]: Out-of-sync with VESC, unknown
+ data leading valid frame. Discarding 1 bytes.
+[ERROR] [1641462345.999033482]: Unkown payload type.
+[ERROR] [1641462345.999079941]: Invalid end-of-frame character
+[ERROR] [1641462345.999093566]: Out-of-sync with VESC, discard
+ing 9 bytes.
+[DEBUG] [1641462345.999120775]: 
+[Beginning] iter: 3, iter_begin: 3
+Buffer Data: 3 2 73 4 1 19 252 201 0 0 0 7 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0
+ 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 80 21
+4 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 
+2 73 4 1 19 253 6 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 194 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 1
+1 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 230 91 3 2 5 22 2 26 2
+01 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 19 253 1
+0 0 0 0 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 193 0 0 0 0 0 
+0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 82 66 3 2 5 22 2 26 201 236 48 123 3 2
+ 5 22 2 26 201 236 48 123 3 2 73 4 1 19 253 13 0 0 0 8 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0
+ 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 148 92 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 2
+36 48 123 3 2 73 4 1 19 253 12 0 0 0 9 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 192 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0
+ 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 88 213 3 
+2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73
+ 4 1 20 252 237 0 0 0 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+194 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 
+227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 158 53 3 2 5 22 2 26 201
+ 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 
+[Processe 1] iter: 2, iter_begin: 3 Distance: 1
+[Processe 2] iter: 2, iter_begin: 2 Distance: 0
+[Processed 3] iter: 3, iter_begin: 2 Distance: 9
+
+[ERROR] [1641462345.999179734]: Invalid end-of-frame character
+[ERROR] [1641462345.999308777]: Unkown payload type.
+[ERROR] [1641462345.999373194]: Invalid end-of-frame character
+[ERROR] [1641462345.999404903]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[DEBUG] [1641462345.999451195]: 
+[Beginning] iter: 3, iter_begin: 3
+[Processed 3] iter: 3, iter_begin: 3 Distance: 10
+
+[ERROR] [1641462346.018885849]: Invalid end-of-frame character
+[ERROR] [1641462346.018936183]: Out-of-sync with VESC, unknown
+ data leading valid frame. Discarding 1 bytes.
+[ERROR] [1641462346.019031142]: Unkown payload type.
+[ERROR] [1641462346.019053767]: Invalid end-of-frame character
+[ERROR] [1641462346.019080851]: Out-of-sync with VESC, discard
+ing 9 bytes.
+[DEBUG] [1641462346.019126018]: 
+[Beginning] iter: 3, iter_begin: 3
+Buffer Data: 3 2 73 4 1 19 253 6 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 194 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0
+ 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 230 91 
+3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 
+73 4 1 19 253 10 0 0 0 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11
+ 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 82 66 3 2 5 22 2 26 201
+ 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 19 253 13 
+0 0 0 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 193 0 0 0 0 0 0 
+0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 148 92 3 2 5 22 2 26 201 236 48 123 3 2 
+5 22 2 26 201 236 48 123 3 2 73 4 1 19 253 12 0 0 0 9 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 192 0 0 0 0 0 0 0 9 0 0 0 0 0 0 
+0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 88 213 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 23
+6 48 123 3 2 73 4 1 20 252 237 0 0 0 6 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 194 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0
+ 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 158 53 3 
+2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73
+ 4 1 19 252 163 0 0 0 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 
+227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 143 41 3 2 5 22 2 26 201
+ 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 
+[Processe 1] iter: 2, iter_begin: 3 Distance: 1
+[Processe 2] iter: 2, iter_begin: 2 Distance: 0
+[Processed 3] iter: 3, iter_begin: 2 Distance: 9
+
+[ERROR] [1641462346.019184643]: Invalid end-of-frame character
+[ERROR] [1641462346.019207185]: Unkown payload type.
+[ERROR] [1641462346.019229686]: Invalid end-of-frame character
+[ERROR] [1641462346.019252186]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[DEBUG] [1641462346.019274644]: 
+[Beginning] iter: 3, iter_begin: 3
+[Processed 3] iter: 3, iter_begin: 3 Distance: 10
+
+[ERROR] [1641462346.038862883]: Invalid end-of-frame character
+[ERROR] [1641462346.038925301]: Out-of-sync with VESC, unknown
+ data leading valid frame. Discarding 1 bytes.
+[ERROR] [1641462346.039090886]: Unkown payload type.
+[ERROR] [1641462346.039195220]: Invalid end-of-frame character
+[ERROR] [1641462346.039223429]: Out-of-sync with VESC, discard
+ing 9 bytes.
+[DEBUG] [1641462346.039264929]: 
+[Beginning] iter: 3, iter_begin: 3
+Buffer Data: 3 2 73 4 1 19 253 10 0 0 0 6 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 
+0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 82 66 
+3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 
+73 4 1 19 253 13 0 0 0 8 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11
+ 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 148 92 3 2 5 22 2 26 20
+1 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 19 253 12
+ 0 0 0 9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 192 0 0 0 0 0 0
+ 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 88 213 3 2 5 22 2 26 201 236 48 123 3 2
+ 5 22 2 26 201 236 48 123 3 2 73 4 1 20 252 237 0 0 0 6 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 194 0 0 0 0 0 0 0 9 0 0 0 0 0 
+0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 158 53 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 
+236 48 123 3 2 73 4 1 19 252 163 0 0 0 6 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0
+ 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 143 41 
+3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 
+73 4 1 19 252 244 0 0 0 9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 194 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 1
+1 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 169 239 3 2 5 22 2 26 
+201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 
+[Processe 1] iter: 2, iter_begin: 3 Distance: 1
+[Processe 2] iter: 2, iter_begin: 2 Distance: 0
+[Processed 3] iter: 3, iter_begin: 2 Distance: 9
+
+[ERROR] [1641462346.039395930]: Invalid end-of-frame character
+[ERROR] [1641462346.039442056]: Unkown payload type.
+[ERROR] [1641462346.039464723]: Invalid end-of-frame character
+[ERROR] [1641462346.039543390]: Out-of-sync with VESC, discard
+ing 10 bytes.
+[DEBUG] [1641462346.039619891]: 
+[Beginning] iter: 3, iter_begin: 3
+[Processed 3] iter: 3, iter_begin: 3 Distance: 10
+
+[ERROR] [1641462346.058885752]: Invalid end-of-frame character
+[ERROR] [1641462346.058935710]: Out-of-sync with VESC, unknown
+ data leading valid frame. Discarding 1 bytes.
+[ERROR] [1641462346.059035461]: Unkown payload type.
+[ERROR] [1641462346.059058045]: Invalid end-of-frame character
+[ERROR] [1641462346.059085087]: Out-of-sync with VESC, discard
+ing 9 bytes.
+[DEBUG] [1641462346.059125671]: 
+[Beginning] iter: 3, iter_begin: 3
+Buffer Data: 3 2 73 4 1 19 253 13 0 0 0 8 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 
+0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 148 92
+ 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2
+ 73 4 1 19 253 12 0 0 0 9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 192 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 1
+1 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 88 213 3 2 5 22 2 26 2
+01 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 73 4 1 20 252 2
+37 0 0 0 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 194 0 0 0 0 0
+ 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 22
+ 0 0 0 0 0 0 0 0 0 0 0 0 158 53 3 2 5 22 2 26 201 2
+ 2 5 22 2 26 201 236 48 123 3 2 73 4 1 19 252 163 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 193 0 0 0 0 0 0 0
+0 0 0 188 0 0 0 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0
+0 0 0 0 0 143 41 3 2 5 22 2 26 201 236 48 123 3 2 5
+1 236 48 123 3 2 73 4 1 19 252 244 0 0 0 9 0 0 0 0 
+ 0 0 0 0 0 0 0 0 0 194 0 0 0 0 0 0 0 9 0 0 0 0 0 0 
+ 0 0 0 0 0 0 21 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 
+39 3 2 5 22 2 26 201 236 48 123 3 2 5 22 2 26 201 2
+ 2 73 4 1 19 252 245 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 
+ 0 0 193 0 0 0 0 0 0 0 9 0 0 0 0 0 0 0 188 0 0 0 0 
+1 11 227 32 81 0 0 0 0 0 0 0 0 0 0 0 0 0 0 83 194 3
+6 201 236 48 123 3 2 5 22 2 26 201 236 48 123 3 2 7
+[Processe 1] iter: 2, iter_begin: 3 Distance: 1
+[Processe 2] iter: 2, iter_begin: 2 Distance: 0
+[Processed 3] iter: 3, iter_begin: 2 Distance: 9
+
+[ERROR] [1641462346.059184171]: Invalid end-of-fram
+[ERROR] [1641462346.059206671]: Unkown payload type
+[ERROR] [1641462346.059224672]: Invalid end-of-fram
+[ERROR] [1641462346.059251672]: Out-of-sync with VE
+ing 10 bytes.
+[DEBUG] [1641462346.059278714]: 
+[Beginning] iter: 3, iter_begin: 3
+[Processed 3] iter: 3, iter_begin: 3 Distance: 10
+
+[vesc_driver_node-2] killing on exit
+[ERROR] [1641462346.078742285]: Invalid end-of-fram
+[ERROR] [1641462346.078816952]: Out-of-sync with VE
+ data leading valid frame. Discarding 1 bytes.
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+done

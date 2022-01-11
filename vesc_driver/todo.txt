@@ -1,0 +1,27 @@
+Set VESC's display_mode = DISP_POS_MODE_ENCODER
+    COMM_SET_DETECT を使うぽい
+
+bldc/main.c
+disp_pos_mode display_mode = commands_get_disp_pos_mode();
+
+switch (display_mode) {
+case DISP_POS_MODE_ENCODER:
+    commands_send_rotor_pos(encoder_read_deg());
+    break;
+
+bldc/commands.c
+void commands_send_rotor_pos(float rotor_pos) {
+	uint8_t buffer[5];
+	int32_t index = 0;
+	buffer[index++] = COMM_ROTOR_POSITION;
+	buffer_append_int32(buffer, (int32_t)(rotor_pos * 100000.0), &index);
+	commands_send_packet(buffer, index);
+}
+
+Get return packet from command_send_rotor_pos 
+
+vesc_driver/vesc_interface.cpp
+void* VescInterface::Impl::rxThread(void)
+
+3 2 73 4 1 33 248 89 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 194 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 128 0 0 4 20 0 2 74 187 180 81 0 0 0 0 0 0 0 0 0 39 0 0 0 1 166 174 
+3 2 5 22 0 58 172 94 40 147

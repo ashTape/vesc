@@ -356,7 +356,10 @@ VescPacketRotorPosition::VescPacketRotorPosition(std::shared_ptr<VescFrame> raw)
  **/
 float VescPacketRotorPosition::getRotorPosition() const
 {
-  return *(payload_end_.first + 1);
+  uint32_t value = 0;
+  // value += static_cast<uint32_t>(*(payload_end_.first + 1 ) << 8);
+  value += static_cast<uint32_t>(*(payload_end_.first + 2));
+  return static_cast<float>(value);
 }
 
 /*------------------------------------------------------------------*/
